@@ -1,0 +1,94 @@
+############################### LICIT ROBOTS.TXT ###############################
+#                                                                              #
+# Alphabetically ordered whitelisting of legitimate web robots, which obey the #
+# Robots Exclusion Standard (robots.txt). Each bot is shortly described in a   #
+# comment above the (list of) user-agent(s). Uncomment or delete bots you do   #
+# not wish to allow on your website / which do not need to visit your website. #
+# Updates can be retrieved from: https://github.com/jonasjacek/licit-robots    #
+#                                                                              #
+# This document ist licensed with a CC BY-NC-SA 4.0 license.                   #
+#                                                                              #
+# Last update: 2016-01-08                                                      # #                                                                              #
+################################################################################
+
+# google.com landing page quality check
+User-agent: AdsBot-Google
+
+# bing ads bot
+User-agent: adidxbot
+
+# baidu.com search engine
+User-agent: Baiduspider
+User-agent: Baiduspider-image
+
+# bing.com search engine
+User-agent: bingbot
+User-agent: BingPreview
+
+# commoncrawl.org open repository of web crawl data
+User-agent: CCBot
+
+# coccoc.com search engine
+User-agent: coccoc
+
+# duckduckgo.com search engine
+User-agent: DuckDuckBot
+User-agent: DuckDuckGo-Favicons-Bot
+
+# exalead.com search engine
+User-agent: Exabot
+
+# facebook.com crawler
+User-agent: Facebot
+
+# google.com search engine
+User-agent: Googlebot
+User-agent: Googlebot-Image
+User-agent: Googlebot-Mobile
+User-agent: Googlebot-News
+User-agent: Googlebot-Video
+
+# archive.org archiver bot
+User-agent: ia_archiver
+
+# lycos.com & hotbot.com search engine
+User-agent: Lycos
+
+# mail.ru search engine
+User-agent: Mail.Ru
+
+# google.com adsense bot
+User-agent: Mediapartners-Google
+
+# mojeek.com search engine
+User-agent: MojeekBot
+
+# bing.com search engine
+User-agent: msnbot
+User-agent: msnbot-media
+
+# rambler.ru search engine
+User-agent: Rambler
+
+# seznam.cz search engine
+User-agent: SeznamBot
+
+# yahoo.com search engine
+User-agent: Slurp
+
+# sputnik.ru search engine
+User-agent: SputnikBot
+
+# ask.com search engine
+User-agent: Teoma
+
+# yacy.net p2p search software
+User-agent: yacybot
+
+# yandex.com search engine
+User-agent: Yandex
+Disallow:
+
+# disallow all bots not listed
+User-agent: *
+Disallow: /
