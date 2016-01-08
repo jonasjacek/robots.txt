@@ -89,6 +89,6 @@ User-agent: yacybot
 User-agent: Yandex
 Disallow:
 
-# disallow all bots not listed
+# disallow all other bots
 User-agent: *
 Disallow: /
