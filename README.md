@@ -11,7 +11,9 @@ There are two versions of LICIT-ROBOTS.TXT.
 1. The regular file (inlc. comments)  
    `robots.txt`
 2. The minified file (no comments)  
-   `robots.txt.min`
+   `robots.min.txt`
+
+If you use the minified version, do not forget to rename it to `robots.txt` to be affective.
 
 ***
 
