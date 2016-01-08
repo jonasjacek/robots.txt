@@ -1,4 +1,4 @@
-############################### LICIT ROBOTS.TXT ###############################
+################################# LICIT ROBOTS #################################
 #                                                                              #
 # Alphabetically ordered whitelisting of legitimate web robots, which obey the #
 # Robots Exclusion Standard (robots.txt). Each bot is shortly described in a   #
