@@ -17,6 +17,9 @@ User-agent: AdsBot-Google
 # bing ads bot
 User-agent: adidxbot
 
+# archive.org bots
+User-agent: archive.org_bot
+
 # baidu.com search engine
 User-agent: Baiduspider
 User-agent: Baiduspider-image
@@ -48,7 +51,7 @@ User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
 
-# archive.org archiver bot
+# alexa.com website audit crawler
 User-agent: ia_archiver
 
 # lycos.com & hotbot.com search engine

@@ -1,5 +1,6 @@
 User-agent: AdsBot-Google
 User-agent: adidxbot
+User-agent: archive.org_bot
 User-agent: Baiduspider
 User-agent: Baiduspider-image
 User-agent: bingbot
