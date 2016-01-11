@@ -44,6 +44,9 @@ User-agent: Exabot
 # facebook.com crawler
 User-agent: Facebot
 
+# feedly.com feed fetcher
+User-agent: Feedly
+
 # google.com search engine
 User-agent: Googlebot
 User-agent: Googlebot-Image
@@ -62,6 +65,9 @@ User-agent: Mail.Ru
 
 # google.com adsense bot
 User-agent: Mediapartners-Google
+
+# majestic12.co.uk distributed search engine
+User-agent: MJ12bot
 
 # mojeek.com search engine
 User-agent: MojeekBot
