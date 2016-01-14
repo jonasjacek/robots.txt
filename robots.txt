@@ -83,6 +83,9 @@ User-agent: Rambler
 # seznam.cz czech search engine
 User-agent: SeznamBot
 
+# soso.com chinese search engine
+User-agent: Sosospider
+
 # yahoo.com international search engine
 User-agent: Slurp
 
