@@ -108,6 +108,9 @@ User-agent: yacybot
 
 # yandex.com russian search engine
 User-agent: Yandex
+
+# youdao.com chinese search engine
+User-agent: YoudaoBot
 Disallow:
 
 # disallow all other bots

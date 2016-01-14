@@ -39,6 +39,7 @@ User-agent: SputnikBot
 User-agent: Teoma
 User-agent: yacybot
 User-agent: Yandex
+User-agent: YoudaoBot
 Disallow:
 
 User-agent: *
