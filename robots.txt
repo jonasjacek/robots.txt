@@ -6,7 +6,7 @@
 # not wish to allow on your website / which do not need to visit your website. #
 # Updates can be retrieved from: https://github.com/jonasjacek/licit-robots    #
 #                                                                              #
-# This document ist licensed with a CC BY-NC-SA 4.0 license.                   #
+# This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
 # Last update: 2016-01-14                                                      #
 #                                                                              #
