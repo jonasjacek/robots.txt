@@ -55,6 +55,9 @@ User-agent: Googlebot-Video
 # alexa.com website audit crawler
 User-agent: ia_archiver
 
+# jike.com / chinaso.com chinese search engine
+User-agent: JikeSpider
+
 # lycos.com & hotbot.com international search engine
 User-agent: Lycos
 
