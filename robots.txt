@@ -85,6 +85,14 @@ User-agent: SeznamBot
 # yahoo.com search engine
 User-agent: Slurp
 
+# sogou.com search engine
+User-agent: Sogou blog
+User-agent: Sogou inst spider
+User-agent: Sogou News Spider
+User-agent: Sogou Orion spider
+User-agent: Sogou spider2
+User-agent: Sogou web spider
+
 # sputnik.ru search engine
 User-agent: SputnikBot
 

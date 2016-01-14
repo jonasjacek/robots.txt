@@ -28,6 +28,12 @@ User-agent: msnbot-media
 User-agent: Rambler
 User-agent: SeznamBot
 User-agent: Slurp
+User-agent: Sogou blog
+User-agent: Sogou inst spider
+User-agent: Sogou News Spider
+User-agent: Sogou Orion spider
+User-agent: Sogou spider2
+User-agent: Sogou web spider
 User-agent: SputnikBot
 User-agent: Teoma
 User-agent: yacybot
