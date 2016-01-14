@@ -8,7 +8,8 @@
 #                                                                              #
 # This document ist licensed with a CC BY-NC-SA 4.0 license.                   #
 #                                                                              #
-# Last update: 2016-01-08                                                      # #                                                                              #
+# Last update: 2016-01-14                                                      #
+#                                                                              #
 ################################################################################
 
 # google.com landing page quality check
@@ -20,26 +21,23 @@ User-agent: adidxbot
 # archive.org bots
 User-agent: archive.org_bot
 
-# baidu.com search engine
+# baidu.com chinese search engine
 User-agent: Baiduspider
 User-agent: Baiduspider-image
 
-# bing.com search engine
+# bing.com international search engine
 User-agent: bingbot
 User-agent: BingPreview
 
 # commoncrawl.org open repository of web crawl data
 User-agent: CCBot
 
-# coccoc.com search engine
+# coccoc.com vietnamese search engine
 User-agent: coccoc
 
-# duckduckgo.com search engine
+# duckduckgo.com international privacy search engine
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
-
-# exalead.com search engine
-User-agent: Exabot
 
 # facebook.com crawler
 User-agent: Facebot
@@ -47,7 +45,7 @@ User-agent: Facebot
 # feedly.com feed fetcher
 User-agent: Feedly
 
-# google.com search engine
+# google.com international search engine
 User-agent: Googlebot
 User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
@@ -57,10 +55,10 @@ User-agent: Googlebot-Video
 # alexa.com website audit crawler
 User-agent: ia_archiver
 
-# lycos.com & hotbot.com search engine
+# lycos.com & hotbot.com international search engine
 User-agent: Lycos
 
-# mail.ru search engine
+# mail.ru russian search engine
 User-agent: Mail.Ru
 
 # google.com adsense bot
@@ -72,20 +70,20 @@ User-agent: MJ12bot
 # mojeek.com search engine
 User-agent: MojeekBot
 
-# bing.com search engine
+# bing.com international search engine
 User-agent: msnbot
 User-agent: msnbot-media
 
-# rambler.ru search engine
+# rambler.ru russian search engine
 User-agent: Rambler
 
-# seznam.cz search engine
+# seznam.cz czech search engine
 User-agent: SeznamBot
 
-# yahoo.com search engine
+# yahoo.com international search engine
 User-agent: Slurp
 
-# sogou.com search engine
+# sogou.com chinese search engine
 User-agent: Sogou blog
 User-agent: Sogou inst spider
 User-agent: Sogou News Spider
@@ -93,16 +91,16 @@ User-agent: Sogou Orion spider
 User-agent: Sogou spider2
 User-agent: Sogou web spider
 
-# sputnik.ru search engine
+# sputnik.ru russian search engine
 User-agent: SputnikBot
 
-# ask.com search engine
+# ask.com international search engine
 User-agent: Teoma
 
 # yacy.net p2p search software
 User-agent: yacybot
 
-# yandex.com search engine
+# yandex.com russian search engine
 User-agent: Yandex
 Disallow:
 

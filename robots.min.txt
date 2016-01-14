@@ -9,7 +9,6 @@ User-agent: CCBot
 User-agent: coccoc
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
-User-agent: Exabot
 User-agent: Facebot
 User-agent: Feedly
 User-agent: Googlebot
