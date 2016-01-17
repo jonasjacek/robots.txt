@@ -6,7 +6,7 @@ LICIT-ROBOTS is a repository, containing files (robots.txt files, .htaccess, etc
 
 ### Robots Exclusion Standard (robots.txt)
 
-The robots.txt files in the `robots-exclusion-standard` directory conatin an (alphabetically ordered) whitelisting of legitimate web robots. Legitimate means the bots obey the Robots Exclusion Standard (robots.txt) and are somehow useful the website owner and other users.
+The robots.txt files in the `/robots-exclusion-standard/` directory conatin an (alphabetically ordered) whitelisting of legitimate web robots. Legitimate means the bots obey the Robots Exclusion Standard (robots.txt) and are somehow useful the website owner and other users.
 
 Each bot is shortly described in a comment above the (list of) user-agent(s). Uncomment or delete bots (User-agents) you do not wish to allow on your website / which you do not need to visit your website.
 
@@ -21,7 +21,7 @@ If you use the minified version, do not forget to rename it to `robots.txt` to b
 
 ### .htaccess files
 
-The files in the `htaccess` directory contain several different pieces of information (e.g. User-agents, referers, etc.) useful to block unwanted bots in `.htaccess` files. Work in progress...
+The files in the `/htaccess/` directory contain several different pieces of information (e.g. User-agents, referers, etc.) useful to block unwanted bots in `.htaccess` files. Work in progress...
 
 ***
 

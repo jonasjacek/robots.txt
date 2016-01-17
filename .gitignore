@@ -1,0 +1,8 @@
+# various
+notes.txt
+
+# vim
+*.bak
+*.swp
+*.swo
+*.vim
