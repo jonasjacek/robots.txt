@@ -30,6 +30,7 @@
   RewriteCond %{HTTP_USER_AGENT} curl [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Daumoa [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Dispatch [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} DoCoMo [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} domain\ re\-animator\ bot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} domainsigmacrawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} DotBot [NC,OR]
