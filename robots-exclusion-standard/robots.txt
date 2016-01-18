@@ -77,6 +77,9 @@ User-agent: MojeekBot
 User-agent: msnbot
 User-agent: msnbot-media
 
+# botje.nl dutch search engine
+User-agent: Plukkie
+
 # rambler.ru russian search engine
 User-agent: Rambler
 
