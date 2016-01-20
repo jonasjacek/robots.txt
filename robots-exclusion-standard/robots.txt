@@ -39,6 +39,9 @@ User-agent: coccoc
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
 
+# exploratodo.com latin search engine
+User-agent: Exploratodo
+
 # facebook.com crawler
 User-agent: Facebot
 
