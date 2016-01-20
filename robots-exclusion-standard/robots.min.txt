@@ -7,6 +7,7 @@ User-agent: bingbot
 User-agent: BingPreview
 User-agent: CCBot
 User-agent: coccoc
+User-agent: DeuSu
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
 User-agent: Exploratodo
