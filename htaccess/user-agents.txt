@@ -124,6 +124,7 @@
   RewriteCond %{HTTP_USER_AGENT} Sogou [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} spbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Squarepusher [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} startmebot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Stratagems\ Kumo [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Superarama\.com\-Tarama\-Botu [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SurdotlyBot [NC,OR]
