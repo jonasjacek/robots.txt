@@ -35,6 +35,9 @@ User-agent: CCBot
 # coccoc.com vietnamese search engine
 User-agent: coccoc
 
+# daum.net korean search engine
+User-agent: Daumoa
+
 # deusu.de german search engine
 User-agent: DeuSu
 
