@@ -45,6 +45,9 @@ User-agent: DeuSu
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
 
+# eurip.com european search engine
+User-agent: EuripBot
+
 # exploratodo.com latin search engine
 User-agent: Exploratodo
 

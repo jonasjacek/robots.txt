@@ -11,6 +11,7 @@ User-agent: Daumoa
 User-agent: DeuSu
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
+User-agent: EuripBot
 User-agent: Exploratodo
 User-agent: Facebot
 User-agent: Feedly
