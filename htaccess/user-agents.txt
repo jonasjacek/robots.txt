@@ -79,6 +79,7 @@
   RewriteCond %{HTTP_USER_AGENT} lwp\-request [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} maluuba\-crawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} meanpathbot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Mediatoolkitbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} megaindex\.ru [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\ URL\ Control [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\-ATL\-Native [NC,OR]
