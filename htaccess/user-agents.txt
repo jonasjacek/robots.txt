@@ -68,6 +68,7 @@
   RewriteCond %{HTTP_USER_AGENT} ips\-agent [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} izsearch\.com [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Jakarta\ Commons\-HttpClient [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} JamesBOT [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Java/1\.8\.0_51 [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} KomodiaBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} kraken [NC,OR]
