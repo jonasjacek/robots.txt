@@ -15,12 +15,14 @@ User-agent: EuripBot
 User-agent: Exploratodo
 User-agent: Facebot
 User-agent: Feedly
+User-agent: moget
 User-agent: Googlebot
 User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
 User-agent: ia_archiver
+User-agent: ichiro
 User-agent: JikeSpider
 User-agent: Lycos
 User-agent: Mail.Ru

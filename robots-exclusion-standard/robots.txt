@@ -57,6 +57,9 @@ User-agent: Facebot
 # feedly.com feed fetcher
 User-agent: Feedly
 
+# goo.ne.jp japanese search engine
+User-agent: gooblog
+
 # google.com international search engine
 User-agent: Googlebot
 User-agent: Googlebot-Image
@@ -66,6 +69,9 @@ User-agent: Googlebot-Video
 
 # alexa.com website audit crawler
 User-agent: ia_archiver
+
+# goo.ne.jp japanese search engine
+User-agent: ichiro
 
 # jike.com / chinaso.com chinese search engine
 User-agent: JikeSpider
