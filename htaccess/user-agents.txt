@@ -21,6 +21,7 @@
   RewriteCond %{HTTP_USER_AGENT} backlinkcrawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} BDCbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} betaBot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Blekkobot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} bot\.araturka\.com [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} BrowseX [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} check [NC,OR]
