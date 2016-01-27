@@ -62,6 +62,7 @@
   RewriteCond %{HTTP_USER_AGENT} hubspot\ marketing\ grader [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ia_archiver [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ICAP\-IOD [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} ICC\-Crawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} imgsizer [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ips\-agent [NC,OR]
