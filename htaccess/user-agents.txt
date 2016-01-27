@@ -159,6 +159,7 @@
   RewriteCond %{HTTP_USER_AGENT} WhatsApp [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WinHttp [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wkhtmltoimage [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Woko [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} woobot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Wotbox [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wpif [NC,OR]
