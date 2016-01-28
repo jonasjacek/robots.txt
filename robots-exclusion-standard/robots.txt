@@ -67,9 +67,6 @@ User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
 
-# alexa.com website audit crawler
-User-agent: ia_archiver
-
 # goo.ne.jp japanese search engine
 User-agent: ichiro
 
