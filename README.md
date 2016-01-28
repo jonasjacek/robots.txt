@@ -1,6 +1,6 @@
 # LICIT-ROBOTS
 
-LICIT-ROBOTS is a repository, containing files (robots.txt files, .htaccess, etc.) to help webmasters keep unwanted web robots (e.g. scraper bots, people search engines, etc.) away from their websites but allow legitimate robots.
+LICIT-ROBOTS is a repository, containing files (robots.txt files, .htaccess, etc.) to help webmasters keep unwanted web robots (e.g. scraper bots, people search engines, seo tools, marketing tools, etc.) away from their websites but allow legitimate robots (e.g. search engines).
 
 ## Files
 
@@ -21,7 +21,13 @@ If you use the minified version, do not forget to rename it to `robots.txt` to b
 
 ### .htaccess files
 
-The files in the `/htaccess/` directory contain several different pieces of information (e.g. User-agents, referers, etc.) useful to block unwanted bots in `.htaccess` files. Work in progress...
+The files in the `/htaccess/` directory contain several different pieces of information (e.g. User-agents, referers, etc.) useful to block unwanted bots in `.htaccess` files for Apache 2.2. Work in progress...
+
+#### Apache documentation to access control
+
+* [https://httpd.apache.org/docs/2.2/howto/access.html](https://httpd.apache.org/docs/2.2/howto/access.html)
+* [https://httpd.apache.org/docs/2.4/howto/access.html](https://httpd.apache.org/docs/2.4/howto/access.html)
+* [http://httpd.apache.org/docs/2.4/upgrading.html#access](http://httpd.apache.org/docs/2.4/upgrading.html#access)
 
 ***
 
