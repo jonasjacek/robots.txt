@@ -27,7 +27,7 @@ The files in the `/htaccess/` directory contain several different pieces of info
 
 * [https://httpd.apache.org/docs/2.2/howto/access.html](https://httpd.apache.org/docs/2.2/howto/access.html)
 * [https://httpd.apache.org/docs/2.4/howto/access.html](https://httpd.apache.org/docs/2.4/howto/access.html)
-* [http://httpd.apache.org/docs/2.4/upgrading.html#access](http://httpd.apache.org/docs/2.4/upgrading.html#access)
+* [https://httpd.apache.org/docs/2.4/upgrading.html#access](https://httpd.apache.org/docs/2.4/upgrading.html#access)
 
 ***
 
