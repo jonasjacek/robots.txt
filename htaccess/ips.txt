@@ -1,0 +1,68 @@
+# BLOCK IP'S, IP RANGES & CIDR
+
+  # UA: Svven-Summarizer
+  # Robots.txt: No
+  # Host: AWS
+    deny from 52.0.0.0/11
+    
+  # UA: Faveeo/1.0; +http://www.faveeo.com
+  # Robots.txt: No
+  # Host: AWS
+    deny from 54.144.0.0/12
+
+  # UA: etoolsbot/1.0; +https://etools.io/bots/
+  # Robots.txt: No
+  # Host: LeaseWeb
+    deny from 85.17.0.0/16
+    
+  # dedibox
+    deny from 62.4.0.0/19
+    
+  # illiad 
+    deny from 62.210.0.0/17
+    
+  # webcrawler.link
+  # Robots.txt: No
+    deny from 64.79.100.0/26
+    
+  # UA: collection@infegy.com
+  # Robots.txt: No
+  # Host: Time Warner Cable Business (west.biz.rr.com)
+    deny from 74.87.160.0/19
+    deny from 74.87.160.0/28
+    deny from 74.87.160.16/30 
+
+  # wotbox.com
+    deny from 81.144.138.34
+    deny from 81.144.138.40
+    
+  # UA: VizzitSpider
+  # Host: DGC Systems (dgc.se)
+    deny from 83.241.128.0/17
+    
+  # UA: golabbot; http://www.golabradors.com/bot.html
+  # Robots.txt: No
+  # Host: tektonic.net
+    deny from 108.161.128.0/20
+
+  # UA: vebidoobot
+  # Robots.txt: Yes
+  # Host: Hetzner Online GmbH (clients.your-server.de)
+    deny from 148.251.0.0/16 
+
+  # semalt
+  # Robots.txt: No
+    deny from 90.199.136.222
+    deny from 177.207.16.134
+    deny from 179.211.155.20
+    deny from 186.236.187.225
+
+  # digitalocean.com cloud hosting
+    deny from 104.131.0.0/16
+
+  # UA: SEOdiver/1.0; http://www.seodiver.com/bot
+  # Robots.txt: No
+  # Host: Hetzner Online GmbH (clients.your-server.de)
+    deny from 144.76.0.0/16
+
+allow from all
