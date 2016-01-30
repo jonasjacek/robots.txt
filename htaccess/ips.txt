@@ -14,6 +14,31 @@
   # Robots.txt: No
   # Host: AWS
     deny from 54.144.0.0/12
+    
+  # UA:Googlebot (gocrawl v0.4)
+  # Robots.txt: No
+  # Host: AWS
+  # 54.157.9.154 - 54.204.160.91
+    deny from 54.157.9.154/31
+    deny from 54.157.9.156/30
+    deny from 54.157.9.160/27
+    deny from 54.157.9.192/26
+    deny from 54.157.10.0/23
+    deny from 54.157.12.0/22
+    deny from 54.157.16.0/20
+    deny from 54.157.32.0/19
+    deny from 54.157.64.0/18
+    deny from 54.157.128.0/17
+    deny from 54.158.0.0/15
+    deny from 54.160.0.0/11
+    deny from 54.192.0.0/13
+    deny from 54.200.0.0/14
+    deny from 54.204.0.0/17
+    deny from 54.204.128.0/19
+    deny from 54.204.160.0/26
+    deny from 54.204.160.64/28
+    deny from 54.204.160.80/29
+    deny from 54.204.160.88/30
 
   # UA: etoolsbot/1.0; +https://etools.io/bots/
   # Robots.txt: No
