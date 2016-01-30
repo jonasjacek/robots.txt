@@ -5,6 +5,11 @@
   # Host: AWS
     deny from 52.0.0.0/11
     
+  # UA: SafeSearch microdata crawler
+  # Robots.txt: No
+  # Host: AWS
+    deny from 52.29.105.112
+    
   # UA: Faveeo/1.0; +http://www.faveeo.com
   # Robots.txt: No
   # Host: AWS
