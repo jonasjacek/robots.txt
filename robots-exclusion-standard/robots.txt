@@ -18,6 +18,9 @@ User-agent: AdsBot-Google
 # bing ads bot
 User-agent: adidxbot
 
+# apple.com web crawler
+User-agent: Applebot
+
 # archive.org bots
 User-agent: archive.org_bot
 
