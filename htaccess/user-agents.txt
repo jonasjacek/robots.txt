@@ -37,6 +37,7 @@
   RewriteCond %{HTTP_USER_AGENT} DoCoMo [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} domain\ re\-animator\ bot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} domainsigmacrawler [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Donuts\ Content\ Explorer [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} DotBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} DTS\ Agent [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} etoolsbot [NC,OR]

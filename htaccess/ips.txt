@@ -9,6 +9,11 @@
   # Robots.txt: No
   # Host: AWS
     deny from 52.29.105.112
+  
+  # UA: Donuts Content Explorer (www.donuts.domains)
+  # Robots.txt: No
+  # Host: AWS  
+    deny from 52.34.255.46
     
   # UA: Faveeo/1.0; +http://www.faveeo.com
   # Robots.txt: No
