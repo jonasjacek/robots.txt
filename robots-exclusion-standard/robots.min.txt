@@ -9,6 +9,7 @@ User-agent: BingPreview
 User-agent: CCBot
 User-agent: coccoc
 User-agent: Daumoa
+User-agent: Dazoobot
 User-agent: DeuSu
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
