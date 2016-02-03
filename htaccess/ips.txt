@@ -1,5 +1,9 @@
 # BLOCK IP'S, IP RANGES & CIDR
 
+  # UA: Applebot/0.1; +http://www.apple.com/go/applebot
+  # Robots.txt: No
+    deny from 17.142.0.0/16
+
   # UA: Svven-Summarizer
   # Robots.txt: No
   # Host: AWS
@@ -105,5 +109,9 @@
   # Robots.txt: No
   # Host: Hetzner Online GmbH (clients.your-server.de)
     deny from 144.76.0.0/16
+  
+  # UA: mfibot/1.1 (http://www.mfisoft.ru/analyst/
+  # Robots.txt: No
+    deny from 188.42.240.119
 
 allow from all
