@@ -91,6 +91,7 @@
   RewriteCond %{HTTP_USER_AGENT} meanpathbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Mediatoolkitbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} megaindex\.ru [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} mfibot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\ URL\ Control [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\-ATL\-Native [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\-CryptoAPI [NC,OR]

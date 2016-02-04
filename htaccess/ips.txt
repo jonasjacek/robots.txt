@@ -112,6 +112,8 @@
   
   # UA: mfibot/1.1 (http://www.mfisoft.ru/analyst/
   # Robots.txt: No
-    deny from 188.42.240.119
+  # Host: ServerClub
+  # 188.42.240.0 - 188.42.247.255 
+    deny from 188.42.240.0/21
 
 allow from all
