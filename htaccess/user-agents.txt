@@ -127,6 +127,7 @@
   RewriteCond %{HTTP_USER_AGENT} SafeSearch\ microdata\ crawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Scopia [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ScoutJet [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} scrape [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} scrapy [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} screaming\ frog\ seo\ spider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} seo [NC,OR]

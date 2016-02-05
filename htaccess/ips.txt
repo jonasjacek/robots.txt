@@ -30,6 +30,13 @@
   # 54.144.0.0 - 54.159.255.255
     deny from 54.144.0.0/12 
     
+  # UA: LinqiaScrapeBot/1.0 (eng@linqia.com)
+  # Robots.txt: Yes
+  # Host AWS
+  # 54.64.0.0 - 54.95.255.255 
+    deny from 52.23.238.242
+    deny from 54.64.0.0/11
+
   # UA:Googlebot (gocrawl v0.4)
   # Robots.txt: No
   # Host: AWS
