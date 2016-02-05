@@ -4,6 +4,7 @@
 # Robots Exclusion Standard (robots.txt). Each bot is shortly described in a   #
 # comment above the (list of) user-agent(s). Uncomment or delete bots you do   #
 # not wish to allow on your website / which do not need to visit your website. #
+# Important: Blank lines are not allowed in the final robots.txt file!         #
 # Updates can be retrieved from: https://github.com/jonasjacek/licit-robots    #
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
