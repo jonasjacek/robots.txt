@@ -90,6 +90,12 @@
   # Host: tektonic.net
     deny from 108.161.128.0/20
 
+  # UA: Putin (+http3://semanticjuice.com/)
+  # Robots.txt: Yes 
+  # Host: Hetzner Online GmbH (clients.your-server.de)
+  # 136.243.0.0 - 136.243.255.255
+    deny from 136.243.0.0/16
+
   # UA: vebidoobot
   # Robots.txt: Yes
   # Host: Hetzner Online GmbH (clients.your-server.de)
