@@ -19,6 +19,7 @@
   RewriteCond %{HTTP_USER_AGENT} archive\.org_bot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} AugDiscovery [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} backlinkcrawler [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} BellPagesCA [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} BDCbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} betaBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Blekkobot [NC,OR]

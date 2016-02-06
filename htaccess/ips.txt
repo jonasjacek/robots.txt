@@ -76,6 +76,13 @@
   # webcrawler.link
   # Robots.txt: No
     deny from 64.79.100.0/26
+
+  # UA: BellPagesCA/1.0; +http://www.BellPages.ca
+  # Protocol: HTTP/1.0
+  # Robots.txt: No
+  # Host: bell.ca
+    deny from 74.14.23.76 
+    deny from 74.14.49.72
     
   # UA: collection@infegy.com
   # Robots.txt: No
