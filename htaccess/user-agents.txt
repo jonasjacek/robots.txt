@@ -82,6 +82,8 @@
   RewriteCond %{HTTP_USER_AGENT} libcurl [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} libwww\-perl [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} linkapediabot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} linkdex [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} LinkWalker [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} LinqiaScrapeBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} lipperhey [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ltbot [NC,OR]
