@@ -1,4 +1,4 @@
-# BLOCK IP'S, IP RANGES & CIDR
+/ BLOCK IP'S, IP RANGES & CIDR
 
   # UA: Applebot/0.1; +http://www.apple.com/go/applebot
   # Robots.txt: No
@@ -81,8 +81,8 @@
   # Protocol: HTTP/1.0
   # Robots.txt: No
   # Host: bell.ca
-    deny from 74.14.23.76 
-    deny from 74.14.49.72
+  # 74.14.16.0 - 74.14.23.255
+    deny from 74.14.16.0/21
     
   # UA: collection@infegy.com
   # Robots.txt: No
