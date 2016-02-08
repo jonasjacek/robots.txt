@@ -1,3 +1,5 @@
+# User agents include browsers, browser extensions, media players, readers and other applications that render web content. Be careful what you do.
+
 # BLOCK BLANK USER AGENTS
   RewriteCond %{HTTP_USER_AGENT} ^-?$
   RewriteRule ^ - [F]
