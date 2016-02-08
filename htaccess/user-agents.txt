@@ -168,6 +168,7 @@
   RewriteCond %{HTTP_USER_AGENT} VizzitSpider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} w3c [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WebCapture [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Weberknecht [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wget [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WhatsApp [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WinHttp [NC,OR]
