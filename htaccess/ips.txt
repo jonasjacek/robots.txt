@@ -1,4 +1,4 @@
-/ BLOCK IP'S, IP RANGES & CIDR
+# BLOCK IP'S, IP RANGES & CIDR
 
   # UA: Applebot/0.1; +http://www.apple.com/go/applebot
   # Robots.txt: No

@@ -120,6 +120,7 @@
   RewriteCond %{HTTP_USER_AGENT} Pingar [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} plista [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} POE\-Component\-Client\-HTTP [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} PrivacyAwareBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} prlog [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Putin [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Python [NC,OR]
