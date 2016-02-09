@@ -135,6 +135,7 @@
   RewriteCond %{HTTP_USER_AGENT} scrape [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} scrapy [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} screaming\ frog\ seo\ spider [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Searchie [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} seo [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SEOdiver [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SEOkicks\-Robot [NC,OR]
