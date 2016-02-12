@@ -127,6 +127,7 @@
   RewriteCond %{HTTP_USER_AGENT} Python\-urllib [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} QuerySeekerSpider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Qwantify [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} RBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Riddler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} rogerbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} RPT\-HTTPClient [NC,OR]
