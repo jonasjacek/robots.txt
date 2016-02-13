@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-02-03                                                      #
+# Last update: 2016-02-13                                                      #
 #                                                                              #
 ################################################################################
 
@@ -60,6 +60,9 @@ User-agent: Facebot
 
 # feedly.com feed fetcher
 User-agent: Feedly
+
+# findx.com feed fetcher
+User-agent: Findxbot
 
 # goo.ne.jp japanese search engine
 User-agent: gooblog
