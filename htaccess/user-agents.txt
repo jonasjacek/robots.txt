@@ -131,6 +131,7 @@
   RewriteCond %{HTTP_USER_AGENT} Riddler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} rogerbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} RPT\-HTTPClient [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} SafeDNS [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SafeSearch\ microdata\ crawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Scopia [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ScoutJet [NC,OR]
