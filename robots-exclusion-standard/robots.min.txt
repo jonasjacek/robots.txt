@@ -17,7 +17,6 @@ User-agent: Exploratodo
 User-agent: Facebot
 User-agent: Feedly
 User-agent: Findxbot
-User-agent: moget
 User-agent: Googlebot
 User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
