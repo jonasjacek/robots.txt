@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-02-13                                                      #
+# Last update: 2016-02-16                                                      #
 #                                                                              #
 ################################################################################
 
@@ -133,6 +133,9 @@ User-agent: yacybot
 
 # yandex.com russian search engine
 User-agent: Yandex
+
+# naver.com south korean search engine
+user-agent: Yeti
 
 # youdao.com chinese search engine
 User-agent: YoudaoBot
