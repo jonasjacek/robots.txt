@@ -45,6 +45,7 @@
   RewriteCond %{HTTP_USER_AGENT} DTS\ Agent [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} eContext [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} etoolsbot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} evc\-batch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Exabot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Experibot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} facebookexternalhit [NC,OR]
