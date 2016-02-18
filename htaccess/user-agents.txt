@@ -48,8 +48,6 @@
   RewriteCond %{HTTP_USER_AGENT} evc\-batch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Exabot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Experibot [NC,OR]
-  RewriteCond %{HTTP_USER_AGENT} facebookexternalhit [NC,OR]
-  RewriteCond %{HTTP_USER_AGENT} Facebot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Faveeo [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} findxbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} FirePHP [NC,OR]
