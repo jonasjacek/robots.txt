@@ -111,6 +111,7 @@
   RewriteCond %{HTTP_USER_AGENT} oBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} okhttp [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} OpenHoseBot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} OrgProbe [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} PageAnalyzer [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} pagesinventory [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Pattern [NC,OR]
