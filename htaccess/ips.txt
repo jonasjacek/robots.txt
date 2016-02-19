@@ -26,6 +26,14 @@
   # 52.84.0.0 - 52.95.255.255
     deny from 52.88.0.0/13
     deny from 52.84.0.0/14 
+
+  # UA: Mozilla/5.0 (compatible; Prezibot/1.0; +https://prezi.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # 54.72.0.0 - 54.95.255.255
+    deny from 54.72.0.0/13 
+    deny from 54.80.0.0/12
     
   # UA: Faveeo/1.0; +http://www.faveeo.com
   # Robots.txt: No
