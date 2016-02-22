@@ -115,6 +115,13 @@
   # Host: DGC Systems (dgc.se)
     deny from 83.241.128.0/17
 
+  # UA: Mozilla/5.0 (compatible; ReplazBot/3.0; +http://www.replaz.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: vultr.com (choopa)
+  # 104.207.128.0 - 104.207.159.255
+    deny from 104.207.128.0/19
+
   # UA: Mozilla/5.0 (compatible; PrivacyAwareBot/1.1; +http://www.privacyaware.org) 
   # Protocol: HTTP/1.1
   # Robots.txt: No
