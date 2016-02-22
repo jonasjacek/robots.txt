@@ -1,9 +1,5 @@
 # BLOCK IP'S, IP RANGES & CIDR
 
-  # UA: Applebot/0.1; +http://www.apple.com/go/applebot
-  # Robots.txt: No
-    deny from 17.142.0.0/16
-
   # UA: Svven-Summarizer
   # Robots.txt: No
   # Host: AWS
