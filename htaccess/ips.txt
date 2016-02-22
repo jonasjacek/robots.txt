@@ -45,6 +45,13 @@
   # Host: AWS
   # 54.144.0.0 - 54.159.255.255
     deny from 54.144.0.0/12 
+
+  # UA: Quora Link Preview/1.0 (http://www.quora.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # 54.208.0.0 - 54.209.255.255
+    deny from 54.208.0.0/15 
     
   # UA: LinqiaScrapeBot/1.0 (eng@linqia.com)
   # Robots.txt: Yes
