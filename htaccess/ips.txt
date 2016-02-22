@@ -173,7 +173,11 @@
     deny from 179.211.155.20
     deny from 186.236.187.225
 
-  # digitalocean.com cloud hosting
+  # UA: Mozilla/5.0 (compatible; ProspectB2B/2.0; http://prospectb2b.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: digitalocean.com
+  # 104.131.0.0 - 104.131.255.255
     deny from 104.131.0.0/16
 
   # UA: SEOdiver/1.0; http://www.seodiver.com/bot
