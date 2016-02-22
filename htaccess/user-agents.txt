@@ -172,6 +172,7 @@
   RewriteCond %{HTTP_USER_AGENT} turnitinbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ubiqway [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} updown_tester [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Upflow [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} UptimeRobot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} URLChecker [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} validator [NC,OR]

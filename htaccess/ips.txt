@@ -138,6 +138,13 @@
   # Host: Hetzner Online GmbH (clients.your-server.de)
     deny from 148.251.0.0/16 
 
+  # UA: Upflow/1.0
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: digitalocean.com
+  # 162.243.0.0 - 162.243.255.255
+    deny from 162.243.0.0/16
+
   # semalt
   # Robots.txt: No
     deny from 90.199.136.222
