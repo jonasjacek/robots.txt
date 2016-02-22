@@ -12,108 +12,76 @@
 # Last update: 2016-02-16                                                      #
 #                                                                              #
 ################################################################################
-
 # google.com landing page quality check
 User-agent: AdsBot-Google
-
 # bing ads bot
 User-agent: adidxbot
-
 # archive.org bots
 User-agent: archive.org_bot
-
 # baidu.com chinese search engine
 User-agent: Baiduspider
 User-agent: Baiduspider-image
-
 # bing.com international search engine
 User-agent: bingbot
 User-agent: BingPreview
-
 # commoncrawl.org open repository of web crawl data
 User-agent: CCBot
-
 # coccoc.com vietnamese search engine
 User-agent: coccoc
-
 # daum.net korean search engine
 User-agent: Daumoa
-
 # dazoo.fr french search engine
 User-agent: Dazoobot
-
 # deusu.de german search engine
 User-agent: DeuSu
-
 # duckduckgo.com international privacy search engine
 User-agent: DuckDuckBot
 User-agent: DuckDuckGo-Favicons-Bot
-
 # eurip.com european search engine
 User-agent: EuripBot
-
 # exploratodo.com latin search engine
 User-agent: Exploratodo
-
 # facebook.com crawler
 User-agent: Facebot
-
 # feedly.com feed fetcher
 User-agent: Feedly
-
 # findx.com feed fetcher
 User-agent: Findxbot
-
 # goo.ne.jp japanese search engine
 User-agent: gooblog
-
 # google.com international search engine
 User-agent: Googlebot
 User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
-
 # goo.ne.jp japanese search engine
 User-agent: ichiro
-
 # jike.com / chinaso.com chinese search engine
 User-agent: JikeSpider
-
 # lycos.com & hotbot.com international search engine
 User-agent: Lycos
-
 # mail.ru russian search engine
 User-agent: Mail.Ru
-
 # google.com adsense bot
 User-agent: Mediapartners-Google
-
 # majestic12.co.uk distributed search engine
 User-agent: MJ12bot
-
 # mojeek.com search engine
 User-agent: MojeekBot
-
 # bing.com international search engine
 User-agent: msnbot
 User-agent: msnbot-media
-
 # botje.nl dutch search engine
 User-agent: Plukkie
-
 # rambler.ru russian search engine
 User-agent: Rambler
-
 # seznam.cz czech search engine
 User-agent: SeznamBot
-
 # soso.com chinese search engine
 User-agent: Sosospider
-
 # yahoo.com international search engine
 User-agent: Slurp
-
 # sogou.com chinese search engine
 User-agent: Sogou blog
 User-agent: Sogou inst spider
@@ -121,28 +89,20 @@ User-agent: Sogou News Spider
 User-agent: Sogou Orion spider
 User-agent: Sogou spider2
 User-agent: Sogou web spider
-
 # sputnik.ru russian search engine
 User-agent: SputnikBot
-
 # ask.com international search engine
 User-agent: Teoma
-
 # yacy.net p2p search software
 User-agent: yacybot
-
 # yandex.com russian search engine
 User-agent: Yandex
-
 # naver.com south korean search engine
 user-agent: Yeti
-
 # youdao.com chinese search engine
 User-agent: YoudaoBot
-
 # crawling rule(s)
 Disallow:
-
 # disallow all other bots
 User-agent: *
 Disallow: /
