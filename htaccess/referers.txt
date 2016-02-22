@@ -5,4 +5,4 @@
   RewriteCond %{HTTP_REFERER} success\-seo [NC,OR]
   RewriteCond %{HTTP_REFERER} rankings\-analytics [NC,OR]
   RewriteCond %{HTTP_REFERER} prlog\.ru
-  RewriteRule *.  - [F,L]
+  RewriteRule .* - [F]
