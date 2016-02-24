@@ -96,6 +96,13 @@
   # Robots.txt: No
     deny from 64.79.100.0/26
 
+  # UA: AwesomePopcorn
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: peer1.net
+  # 66.199.128.0 - 66.199.191.255
+    deny from 66.199.128.0/18 
+
   # UA: BellPagesCA/1.0; +http://www.BellPages.ca
   # Protocol: HTTP/1.0
   # Robots.txt: No
