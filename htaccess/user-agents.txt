@@ -185,6 +185,7 @@
   RewriteCond %{HTTP_USER_AGENT} validator [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} VB\ Project [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} vebidoobot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} VegeBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} VizzitSpider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} w3c [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WBSearchBot [NC,OR]

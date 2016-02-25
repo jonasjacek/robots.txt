@@ -9,6 +9,13 @@
   # Robots.txt: No
   # Host: AWS
     deny from 52.29.105.112
+
+  # UA: VegeBot 
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # 52.32.0.0 - 52.63.255.255
+    deny from 52.32.0.0/11 
   
   # UA: Donuts Content Explorer (www.donuts.domains)
   # Robots.txt: No
