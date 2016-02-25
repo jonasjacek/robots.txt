@@ -124,6 +124,12 @@
     deny from 74.87.160.0/28
     deny from 74.87.160.16/30 
 
+  # UA: Mozilla/5.0 (compatible; RankActiveLinkBot; +https://rankactive.com/resources/rankactive-linkbot)
+  # Protocol: HTTP/1.1
+  # Robots.txt: Yes
+  # Host: Hetzner Online GmbH
+    deny from 78.46.98.236
+
   # wotbox.com
     deny from 81.144.138.34
     deny from 81.144.138.40
@@ -201,6 +207,11 @@
   # Robots.txt: No
   # Host: Hetzner Online GmbH (clients.your-server.de)
     deny from 144.76.0.0/16
+
+  # UA: Mozilla/5.0 (compatible; BLEXBot/1.0; +http://webmeup-crawler.com/)
+  # Protocol: HTTP/1.1
+  # Robots.txt: Yes
+  # Host: Hetzner Online GmbH (clients.your-server.de)
     deny from 144.76.71.83
 
   # UA: Mozilla/5.0 (compatible; Getintent Crawler/0.6; +http://getintent.com; )
