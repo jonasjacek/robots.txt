@@ -137,6 +137,7 @@
   RewriteCond %{HTTP_USER_AGENT} QuerySeekerSpider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Quora\ Link\ Preview [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Qwantify [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} RankActive [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} RBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ReplazBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Riddler [NC,OR]
