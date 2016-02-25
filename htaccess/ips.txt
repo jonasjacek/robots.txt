@@ -151,6 +151,13 @@
   # Host: tektonic.net
     deny from 108.161.128.0/20
 
+  # UA: Wing/2 (GM 1.3.5)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: Yahoo
+  # 114.111.64.0 - 114.111.127.255
+    deny from 114.111.64.0/18 
+
   # UA: Putin (+http3://semanticjuice.com/)
   # Robots.txt: Yes 
   # Host: Hetzner Online GmbH (clients.your-server.de)

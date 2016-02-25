@@ -193,6 +193,7 @@
   RewriteCond %{HTTP_USER_AGENT} Weberknecht [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wget [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WhatsApp [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Wing [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WinHttp [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wkhtmltoimage [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wonderbot [NC,OR]
