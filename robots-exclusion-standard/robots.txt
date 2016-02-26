@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-02-16                                                      #
+# Last update: 2016-02-26                                                      #
 #                                                                              #
 ################################################################################
 # google.com landing page quality check
@@ -74,6 +74,8 @@ User-agent: MojeekBot
 # bing.com international search engine
 User-agent: msnbot
 User-agent: msnbot-media
+# orange.com international search engine
+User-agent: OrangeBot
 # botje.nl dutch search engine
 User-agent: Plukkie
 # rambler.ru russian search engine

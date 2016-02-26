@@ -32,6 +32,7 @@ User-agent: MJ12bot
 User-agent: MojeekBot
 User-agent: msnbot
 User-agent: msnbot-media
+User-agent: OrangeBot
 User-agent: Plukkie
 User-agent: Rambler
 User-agent: SeznamBot
