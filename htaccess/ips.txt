@@ -144,6 +144,10 @@
   # Host: DGC Systems (dgc.se)
     deny from 83.241.128.0/17
 
+  # Host: Zitcom
+  # 94.231.96.0 - 94.231.111.255
+    deny from 94.231.96.0/20
+
   # UA: www.probethenet.com scanner
   # Protocol: HTTP/1.0
   # Host: Wizard Tower TechnoServices LTD
