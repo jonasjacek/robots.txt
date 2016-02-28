@@ -141,16 +141,16 @@
     deny from 74.63.16.0/20
   # Host: Voxel
   # 74.63.32.0 - 74.63.63.255
-    74.63.32.0/19
+    deny from 74.63.32.0/19
   # Host: FDCservers
   # 74.63.64.0 - 74.63.127.255
-    74.63.64.0/18
+    deny from 74.63.64.0/18
   # Host: Viawest
   # 74.63.128.0 - 74.63.191.255
-    74.63.128.0/18
+    deny from 74.63.128.0/18
   # Host: Limestone
   # 74.63.192.0 - 74.63.255.255
-    74.63.192.0/18
+    deny from 74.63.192.0/18
 
   # UA: collection@infegy.com
   # Robots.txt: No
