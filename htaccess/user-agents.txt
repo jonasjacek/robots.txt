@@ -68,6 +68,7 @@
   RewriteCond %{HTTP_USER_AGENT} haosouspider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} heritrix [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} hosterstats [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} HTMLGET [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} HTMLParser [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} HTTrack [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} hubspot\ marketing\ grader [NC,OR]
