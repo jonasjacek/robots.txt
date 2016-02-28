@@ -110,6 +110,12 @@
   # 66.199.128.0 - 66.199.191.255
     deny from 66.199.128.0/18 
 
+  # Host: ihsystem.com
+  # 66.235.214.0 - 66.235.214.255
+    deny from 66.235.214.0/24
+  # 72.22.68.0 - 72.22.68.255
+    deny from 72.22.68.0/24
+
   # UA: BellPagesCA/1.0; +http://www.BellPages.ca
   # Protocol: HTTP/1.0
   # Robots.txt: No
