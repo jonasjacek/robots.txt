@@ -263,6 +263,9 @@
   # Host: Hetzner Online GmbH (clients.your-server.de)
     deny from 144.76.71.83
 
+  # 172.245.0.0 - 172.245.255.255
+    deny from 172.245.0.0/16 
+
   # UA: Mozilla/5.0 (compatible; Getintent Crawler/0.6; +http://getintent.com; )
   # Protocol: HTTP/1.1
   # Robots.txt: No
