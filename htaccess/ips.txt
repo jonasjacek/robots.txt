@@ -1,5 +1,15 @@
 # BLOCK IP'S, IP RANGES & CIDR
 
+  # Host: myLoc.de
+  # 5.199.128.0 - 5.199.142.255
+    deny from 5.199.128.0/20
+  # 81.30.144.0 - 81.30.159.255
+    deny from 81.30.144.0/20
+  # 89.163.224.0 - 89.163.255.255
+    deny from 89.163.224.0/19
+  # 193.111.136.0 - 193.111.143.255
+    deny from 193.111.136.0/21 
+
   # UA: Svven-Summarizer
   # Robots.txt: No
   # Host: AWS
@@ -122,7 +132,26 @@
   # Host: bell.ca
   # 74.14.16.0 - 74.14.23.255
     deny from 74.14.16.0/21
-    
+
+  # Host: LightPoint
+  # 74.63.0.0 - 74.63.15.255
+    deny from 74.63.0.0/20
+  # Host: WoodyNet
+  # 74.63.16.0 - 74.63.31.255
+    deny from 74.63.16.0/20
+  # Host: Voxel
+  # 74.63.32.0 - 74.63.63.255
+    74.63.32.0/19
+  # Host: FDCservers
+  # 74.63.64.0 - 74.63.127.255
+    74.63.64.0/18
+  # Host: Viawest
+  # 74.63.128.0 - 74.63.191.255
+    74.63.128.0/18
+  # Host: Limestone
+  # 74.63.192.0 - 74.63.255.255
+    74.63.192.0/18
+
   # UA: collection@infegy.com
   # Robots.txt: No
   # Host: Time Warner Cable Business (west.biz.rr.com)
