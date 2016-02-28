@@ -161,6 +161,10 @@
   # 104.207.128.0 - 104.207.159.255
     deny from 104.207.128.0/19
 
+  # Host: vultr.com
+  # 104.207.144.0 - 104.207.145.255
+    deny from 104.207.144.0/23
+
   # UA: Mozilla/5.0 (compatible; PrivacyAwareBot/1.1; +http://www.privacyaware.org) 
   # Protocol: HTTP/1.1
   # Robots.txt: No
