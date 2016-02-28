@@ -1,3 +1,3 @@
-# BLOCK FILE REQUESTS
+BLOCK FILE REQUESTS
 # wordpress
 RewriteRule (wp-signup|xmlrpc|) - [NC,F] 

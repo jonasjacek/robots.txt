@@ -193,6 +193,7 @@
   RewriteCond %{HTTP_USER_AGENT} VizzitSpider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} w3c [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WBSearchBot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} WbSrch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WebCapture [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Weberknecht [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WebMeUp [NC,OR]
