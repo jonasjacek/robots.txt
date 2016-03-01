@@ -287,4 +287,11 @@
   # 188.42.240.0 - 188.42.247.255 
     deny from 188.42.240.0/21
 
+  # UA: Mozilla/5.0 (compatible; WbSrch/1.1 +http://wbsrch.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No 
+  # Host: opusinteractive.com
+  # 216.151.0.0 - 216.151.31.255
+    deny from 216.151.0.0/19
+
 allow from all
