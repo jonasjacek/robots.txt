@@ -172,6 +172,11 @@
   # Host: Hetzner Online GmbH
     deny from 78.46.98.236
 
+  # UA: ZnajdzFoto/Image 2.0
+  # Robots.txt: Yes
+  # Host: PW Interbit Sp. z o.o. (eksadata.pl)
+    deny from 81.6.136.52
+
   # wotbox.com
     deny from 81.144.138.34
     deny from 81.144.138.40
@@ -179,6 +184,10 @@
   # UA: VizzitSpider
   # Host: DGC Systems (dgc.se)
     deny from 83.241.128.0/17
+
+  # semalt
+  # Robots.txt: No
+    deny from 90.199.136.222
 
   # Host: Zitcom
   # 94.231.96.0 - 94.231.111.255
@@ -245,13 +254,6 @@
   # 162.243.0.0 - 162.243.255.255
     deny from 162.243.0.0/16
 
-  # semalt
-  # Robots.txt: No
-    deny from 90.199.136.222
-    deny from 177.207.16.134
-    deny from 179.211.155.20
-    deny from 186.236.187.225
-
   # UA: Mozilla/5.0 (compatible; ProspectB2B/2.0; http://prospectb2b.com)
   # Protocol: HTTP/1.1
   # Robots.txt: No
@@ -273,18 +275,30 @@
   # 172.245.0.0 - 172.245.255.255
     deny from 172.245.0.0/16 
 
+  # UA: semalt
+  # Robots.txt: No
+    deny from 177.207.16.134
+
   # UA: Mozilla/5.0 (compatible; Getintent Crawler/0.6; +http://getintent.com; )
   # Protocol: HTTP/1.1
   # Robots.txt: No
   # Host: transitec.ru ISP
   # 178.217.176.0 - 178.217.183.255
+
+  # UA: semalt
+  # Robots.txt: No
+    deny from 186.236.187.225
+
+  # Host: Hetzner Online GmbH (clients.your-server.de)
+    deny from 188.40.112.210
     deny from 178.217.176.0/21
 
+  # UA: semalt
+  # Robots.txt: No
+    deny from 179.211.155.20
 
   # UA: ZnajdzFoto/Image 2.0
   # Robots.txt: Yes
-  # Host: 
-    deny from 81.6.136.52
     deny from 185.69.1.70
     deny from 185.69.1.71
   
