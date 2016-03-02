@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-03-01                                                      #
+# Last update: 2016-03-02                                                      #
 #                                                                              #
 ################################################################################
 # google.com landing page quality check
@@ -105,6 +105,8 @@ User-agent: yacybot
 User-agent: Yandex
 # naver.com south korean search engine
 user-agent: Yeti
+# yooz.ir iranian search engine
+User-agent: yoozBot
 # youdao.com chinese search engine
 User-agent: YoudaoBot
 # crawling rule(s)
