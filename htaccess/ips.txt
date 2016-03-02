@@ -1,5 +1,12 @@
 # BLOCK IP'S, IP RANGES & CIDR
 
+  # UA: Wurf
+  # Protocol: HTTP/1.1
+  # Robots.txt: Yes
+  # Host: hetzner.de
+  # 5.9.0.0 - 5.9.255.255
+    deny from 5.9.0.0/16
+
   # Host: myLoc.de
   # 5.199.128.0 - 5.199.142.255
     deny from 5.199.128.0/20

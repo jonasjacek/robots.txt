@@ -208,6 +208,7 @@
   RewriteCond %{HTTP_USER_AGENT} woobot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Wotbox [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wpif [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Wurf [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WWW\-Mechanize [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} xenu [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} xovibot [NC,OR]
