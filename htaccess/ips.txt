@@ -17,6 +17,10 @@
   # 193.111.136.0 - 193.111.143.255
     deny from 193.111.136.0/21 
 
+  # Comapany: Seodedic
+  # 46.161.9.0 - 46.161.9.255
+    deny from 46.161.9.0/24 
+
   # UA: Svven-Summarizer
   # Robots.txt: No
   # Host: AWS
@@ -172,6 +176,10 @@
   # Host: Hetzner Online GmbH
     deny from 78.46.98.236
 
+  # Company: positive-internet.com
+  # 80.87.128.0 - 80.87.143.255
+    deny from 80.87.128.0/20
+
   # UA: ZnajdzFoto/Image 2.0
   # Robots.txt: Yes
   # Host: PW Interbit Sp. z o.o. (eksadata.pl)
@@ -185,7 +193,11 @@
   # Host: DGC Systems (dgc.se)
     deny from 83.241.128.0/17
 
-  # semalt
+  # Host: xtglobal.vg - XT GLOBAL NETWORKS LTD.
+  # 86.106.16.0 - 86.106.19.255
+    deny from 86.106.16.0/22
+
+  # Company semalt
   # Robots.txt: No
     deny from 90.199.136.222
 
@@ -209,6 +221,12 @@
   # Host: vultr.com
   # 104.207.144.0 - 104.207.145.255
     deny from 104.207.144.0/23
+
+  # Host: Zenlayer Inc.
+  # 107.151.128.0 - 107.151.191.255
+    deny from 107.151.128.0/22
+  # 107.151.192.0 - 107.151.255.255
+    deny from 107.151.192.0/18 
 
   # UA: Mozilla/5.0 (compatible; PrivacyAwareBot/1.1; +http://www.privacyaware.org) 
   # Protocol: HTTP/1.1
@@ -285,6 +303,10 @@
   # Host: transitec.ru ISP
   # 178.217.176.0 - 178.217.183.255
 
+  # Host: MyServerPlanet ltd
+  # 185.120.12.0 - 185.120.12.255
+    deny from 185.120.12.0/24
+
   # UA: semalt
   # Robots.txt: No
     deny from 186.236.187.225
@@ -307,6 +329,10 @@
   # Host: ServerClub
   # 188.42.240.0 - 188.42.247.255 
     deny from 188.42.240.0/21
+
+  # Host: vads.com hosting
+  # 202.75.32.0 - 202.75.63.255
+    deny from 202.75.32.0/19 
 
   # UA: Mozilla/5.0 (compatible; WbSrch/1.1 +http://wbsrch.com)
   # Protocol: HTTP/1.1
