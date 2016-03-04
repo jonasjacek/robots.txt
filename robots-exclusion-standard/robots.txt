@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-03-02                                                      #
+# Last update: 2016-03-04                                                      #
 #                                                                              #
 ################################################################################
 # google.com landing page quality check
@@ -69,8 +69,6 @@ User-agent: Lycos
 User-agent: Mail.Ru
 # google.com adsense bot
 User-agent: Mediapartners-Google
-# majestic12.co.uk distributed search engine
-User-agent: MJ12bot
 # mojeek.com search engine
 User-agent: MojeekBot
 # bing.com international search engine

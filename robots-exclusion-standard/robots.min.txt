@@ -29,7 +29,6 @@ User-agent: JikeSpider
 User-agent: Lycos
 User-agent: Mail.Ru
 User-agent: Mediapartners-Google
-User-agent: MJ12bot
 User-agent: MojeekBot
 User-agent: msnbot
 User-agent: msnbot-media

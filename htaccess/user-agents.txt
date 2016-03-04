@@ -107,6 +107,7 @@
   RewriteCond %{HTTP_USER_AGENT} Microsoft\-ATL\-Native [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\-CryptoAPI [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\-WebDAV\-MiniRedir [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} MJ12bot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Mnogosearch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} moget [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} MS\ Search\ 6\.0\ Robot [NC,OR]
