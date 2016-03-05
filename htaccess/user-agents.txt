@@ -134,6 +134,7 @@
   RewriteCond %{HTTP_USER_AGENT} PrivacyAwareBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} prlog [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ProspectB2B [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Pu_iN [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Putin [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Python [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Python\-urllib [NC,OR]

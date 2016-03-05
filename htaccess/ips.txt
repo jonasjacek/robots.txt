@@ -247,6 +247,7 @@
   # 114.111.64.0 - 114.111.127.255
     deny from 114.111.64.0/18 
 
+  # UA: Pu_iN Crawler (+http://semanticjuice.com/)
   # UA: Putin (+http3://semanticjuice.com/)
   # Robots.txt: Yes 
   # Host: Hetzner Online GmbH (clients.your-server.de)
