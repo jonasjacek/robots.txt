@@ -188,6 +188,17 @@
   # wotbox.com
     deny from 81.144.138.34
     deny from 81.144.138.40
+
+  # UA: Various
+  # Robots.txt: No
+  # Country: Israel
+    deny from 82.80.230.228
+  # 82.80.249.154 - 82.80.249.211
+    deny from 82.80.249.154/31
+    deny from 82.80.249.156/30
+    deny from 82.80.249.160/27
+    deny from 82.80.249.192/28
+    deny from 82.80.249.208/30 
     
   # UA: VizzitSpider
   # Host: DGC Systems (dgc.se)
