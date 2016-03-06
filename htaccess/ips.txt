@@ -204,6 +204,12 @@
   # Host: DGC Systems (dgc.se)
     deny from 83.241.128.0/17
 
+  # UA: Various
+  # Robots.txt: No
+  # Country: France
+    deny from 85.93.89.74
+    deny from 85.93.89.232
+
   # Host: xtglobal.vg - XT GLOBAL NETWORKS LTD.
   # 86.106.16.0 - 86.106.19.255
     deny from 86.106.16.0/22
