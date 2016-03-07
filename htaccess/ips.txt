@@ -116,10 +116,12 @@
     deny from 54.204.160.80/29
     deny from 54.204.160.88/30
 
-  # UA: etoolsbot/1.0; +https://etools.io/bots/
-  # Robots.txt: No
-  # Host: LeaseWeb
-    deny from 85.17.0.0/16
+  # UA: omgili/0.5 +http://omgili.com
+  # Protocol: HTTP/1.1
+  # Robots.txt: Yes
+  # Country: Israel
+  # 62.0.1.0 - 62.0.1.255
+    deny from 62.0.1.0/24 
     
   # dedibox
     deny from 62.4.0.0/19
@@ -210,6 +212,11 @@
   # UA: VizzitSpider
   # Host: DGC Systems (dgc.se)
     deny from 83.241.128.0/17
+
+  # UA: etoolsbot/1.0; +https://etools.io/bots/
+  # Robots.txt: No
+  # Host: LeaseWeb
+    deny from 85.17.0.0/16
 
   # UA: Various
   # Robots.txt: No
