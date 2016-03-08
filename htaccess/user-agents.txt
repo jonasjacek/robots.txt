@@ -123,6 +123,7 @@
   RewriteCond %{HTTP_USER_AGENT} OrgProbe [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} PageAnalyzer [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} pagesinventory [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} panscient [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Pattern [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} PECL\:\:HTTP [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} perl [NC,OR]

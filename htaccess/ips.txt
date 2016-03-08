@@ -146,6 +146,10 @@
   # 72.22.68.0 - 72.22.68.255
     deny from 72.22.68.0/24
 
+  # UA: panscient.com
+  # Robots.txt: No
+    deny from 72.76.243.86 
+
   # UA: BellPagesCA/1.0; +http://www.BellPages.ca
   # Protocol: HTTP/1.0
   # Robots.txt: No
@@ -361,6 +365,13 @@
   # Host: ServerClub
   # 188.42.240.0 - 188.42.247.255 
     deny from 188.42.240.0/21
+
+  # UA: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (.NET CLR 3.5.30729)
+  # Protocol: HTTP/1.1
+  # Robots.txt: Yes
+  # Host: wajam.com
+  # 198.199.14.0 - 198.199.15.255
+    deny from 198.199.14.0/23 
 
   # Host: vads.com hosting
   # 202.75.32.0 - 202.75.63.255
