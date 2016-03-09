@@ -257,14 +257,6 @@
   # 104.207.144.0 - 104.207.145.255
     deny from 104.207.144.0/23
 
-  # UA: Mozilla/5.0 (compatible; NetcraftSurveyAgent/1.0; +info@netcraft.com)
-  # Protocol: HTTP/1.0
-  # Robots.txt: No
-    deny from 104.236.2.161
-    deny from 104.236.107.118
-    deny from 104.236.109.184
-    deny from 104.236.120.62
-
   # Host: Zenlayer Inc.
   # 107.151.128.0 - 107.151.191.255
     deny from 107.151.128.0/22
