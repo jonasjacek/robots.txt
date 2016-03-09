@@ -206,6 +206,7 @@
   RewriteCond %{HTTP_USER_AGENT} WebMeUp [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wget [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WhatsApp [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Who\.is [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Wing [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} WinHttp [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} wkhtmltoimage [NC,OR]
