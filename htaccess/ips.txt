@@ -24,6 +24,13 @@
   # 193.111.136.0 - 193.111.143.255
     deny from 193.111.136.0/21 
 
+  # UA: Mozilla/5.0 (compatible; Veoozbot/1.0; +http://www.veooz.com/veoozbot.html)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: linode.com
+  # 23.239.0.0 - 23.239.31.255
+    deny from 23.239.0.0/19 
+
   # UA: Various
     deny from 45.55.229.140
 
