@@ -102,6 +102,7 @@
   RewriteCond %{HTTP_USER_AGENT} maluuba\-crawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} meanpathbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Mediatoolkitbot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Mediumbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} megaindex [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} mfibot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\ URL\ Control [NC,OR]
