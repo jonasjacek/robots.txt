@@ -79,6 +79,7 @@
   RewriteCond %{HTTP_USER_AGENT} ICC\-Crawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} imgsizer [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Integrity [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ips\-agent [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} izsearch\.com [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Jakarta\ Commons\-HttpClient [NC,OR]
