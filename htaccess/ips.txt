@@ -306,6 +306,12 @@
   # 136.243.0.0 - 136.243.255.255
     deny from 136.243.0.0/16
 
+  # UA: "OnPageBot (compatible; Googlebot 2.1; +https://bot.onpage.org/)"
+  # Robots.txt: No
+  # Host: hetzner.de
+  # 144.76.0.0 - 144.76.255.255
+    deny from 144.76.0.0/16 
+
   # UA: vebidoobot
   # Robots.txt: Yes
   # Host: Hetzner Online GmbH (clients.your-server.de)
