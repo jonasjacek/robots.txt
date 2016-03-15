@@ -139,6 +139,12 @@
   # Country: Israel
   # 62.0.1.0 - 62.0.1.255
     deny from 62.0.1.0/24 
+
+  # UA: Mozilla/5.0 (compatible; SEOlyticsCrawler/3.0; +http://crawler.seolytics.net/)
+  # Protocol: HTTP/1.1
+  # Robots.txt: Yes
+  # Host: IP Exchange
+    deny from 62.146.2.234
     
   # dedibox
     deny from 62.4.0.0/19
