@@ -1,8 +1,3 @@
 # BLOCK CERTAIN REFERERS
-  RewriteCond %{HTTP_REFERER} semalt [NC,OR]
-  RewriteCond %{HTTP_REFERER} seomon [NC,OR]
-  RewriteCond %{HTTP_REFERER} seowarp [NC,OR]
-  RewriteCond %{HTTP_REFERER} success\-seo [NC,OR]
-  RewriteCond %{HTTP_REFERER} rankings\-analytics [NC,OR]
-  RewriteCond %{HTTP_REFERER} prlog\.ru
+  RewriteCond %{HTTP_REFERER} (analytics|prlog|ranking|semalt|seo) [NC]
   RewriteRule .* - [F]
