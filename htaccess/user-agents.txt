@@ -173,7 +173,6 @@
   RewriteCond %{HTTP_USER_AGENT} sistrix [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SNAPSHOT [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Snoopy [NC,OR]
-  RewriteCond %{HTTP_USER_AGENT} Sogou [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} spbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} splash [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Squarepusher [NC,OR]
