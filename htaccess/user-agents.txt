@@ -175,6 +175,7 @@
   RewriteCond %{HTTP_USER_AGENT} SNAPSHOT [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Snoopy [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} spbot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Spuhex [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} splash [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Squarepusher [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} startmebot [NC,OR]

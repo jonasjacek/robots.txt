@@ -133,6 +133,13 @@
     deny from 54.204.160.80/29
     deny from 54.204.160.88/30
 
+  # UA: SpuhexBot+(+http://www.spuhex.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Country: Russia
+  # Host: corbina.ru
+    deny from 85.21.233.180 
+
   # UA: omgili/0.5 +http://omgili.com
   # Protocol: HTTP/1.1
   # Robots.txt: Yes
