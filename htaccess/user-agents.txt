@@ -58,6 +58,7 @@
   RewriteCond %{HTTP_USER_AGENT} findxbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} FirePHP [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Friendica [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} GermCrawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Getintent [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} gettor [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} GigablastOpenSource [NC,OR]

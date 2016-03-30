@@ -90,6 +90,15 @@
     deny from 54.72.0.0/13 
     deny from 54.80.0.0/12
     
+  # UA: GermCrawler
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # 54.88.0.0 - 54.88.255.255
+    deny from 54.88.0.0/16
+  # 54.208.0.0 - 54.209.255.255
+    deny from 54.208.0.0/15 
+
   # UA: Faveeo/1.0; +http://www.faveeo.com
   # Robots.txt: No
   # Host: AWS
