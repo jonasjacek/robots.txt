@@ -34,6 +34,7 @@
   RewriteCond %{HTTP_USER_AGENT} check [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Chilkat [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Clickagy [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Cloudinary [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} CloudServerMarketSpider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} CMS\ Crawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} crawler4j [NC,OR]
