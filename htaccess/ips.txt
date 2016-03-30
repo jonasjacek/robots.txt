@@ -38,6 +38,11 @@
   # 23.239.0.0 - 23.239.31.255
     deny from 23.239.0.0/19 
 
+  # racksrv.com
+  # Country: United Kingdom
+  # 37.26.104.0 - 37.26.111.255
+    deny from 37.26.104.0/21 
+
   # UA: Various
     deny from 45.55.229.140
 
@@ -446,6 +451,11 @@
   # Host: vads.com hosting
   # 202.75.32.0 - 202.75.63.255
     deny from 202.75.32.0/19 
+
+  # racksrv.com
+  # Country: United Kingdom
+  # 213.5.176.0 - 213.5.183.255
+    deny from 213.5.176.0/21
 
   # UA: Mozilla/5.0 (compatible; WbSrch/1.1 +http://wbsrch.com)
   # Protocol: HTTP/1.1
