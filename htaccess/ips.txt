@@ -82,6 +82,14 @@
     deny from 52.88.0.0/13
     deny from 52.84.0.0/14 
 
+  # UA: Clickagy Intelligence Bot v2
+  # Protocol: HTTP/1.1
+  # Robots.txt: Yes
+  # Host: AWS
+  # 52.84.0.0 - 52.95.255.255
+    deny from 52.88.0.0/13
+    deny from 52.84.0.0/14 
+
   # UA: Mozilla/5.0 (compatible; Prezibot/1.0; +https://prezi.com)
   # Protocol: HTTP/1.1
   # Robots.txt: No
