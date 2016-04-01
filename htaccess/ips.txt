@@ -441,6 +441,11 @@
   # 188.42.240.0 - 188.42.247.255 
     deny from 188.42.240.0/21
 
+  # Host: cyberdyne.net.lr
+  # Country: Liberia
+  # 197.231.220.0 - 197.231.223.255
+    deny from 197.231.220.0/22
+
   # UA: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (.NET CLR 3.5.30729)
   # Protocol: HTTP/1.1
   # Robots.txt: Yes
@@ -452,7 +457,7 @@
   # 202.75.32.0 - 202.75.63.255
     deny from 202.75.32.0/19 
 
-  # racksrv.com
+  # Host: racksrv.com
   # Country: United Kingdom
   # 213.5.176.0 - 213.5.183.255
     deny from 213.5.176.0/21
