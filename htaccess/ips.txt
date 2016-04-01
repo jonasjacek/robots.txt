@@ -116,6 +116,7 @@
   # Protocol: HTTP/1.1
   # Robots.txt: No
   # Host: AWS
+    deny from 54.145.216.149
     deny from 54.163.117.142
 
   # UA: Faveeo/1.0; +http://www.faveeo.com
