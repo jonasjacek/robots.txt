@@ -112,6 +112,12 @@
   # 54.208.0.0 - 54.209.255.255
     deny from 54.208.0.0/15 
 
+  # UA: Various
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+    deny from 54.163.117.142
+
   # UA: Faveeo/1.0; +http://www.faveeo.com
   # Robots.txt: No
   # Host: AWS
