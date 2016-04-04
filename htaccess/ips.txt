@@ -464,6 +464,19 @@
   # 202.75.32.0 - 202.75.63.255
     deny from 202.75.32.0/19 
 
+  # Robots.txt: No
+  # Protocol: HTTP/1.0
+  # Host: intellnetwork.net
+  # Country: United States
+  # 207.90.2.7 - 207.90.2.70
+    deny from 207.90.2.7/32
+    deny from 207.90.2.8/29
+    deny from 207.90.2.16/28
+    deny from 207.90.2.32/27
+    deny from 207.90.2.64/30
+    deny from 207.90.2.68/31
+    deny from 207.90.2.70/32
+
   # Host: racksrv.com
   # Country: United Kingdom
   # 213.5.176.0 - 213.5.183.255
