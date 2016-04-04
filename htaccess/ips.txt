@@ -467,6 +467,11 @@
   # 198.199.14.0 - 198.199.15.255
     deny from 198.199.14.0/23 
 
+  # Host: bodis.com (domain parking & content scraping)
+  # Country: United States
+  # 199.59.240.0 - 199.59.243.255
+    deny from 199.59.240.0/22 
+
   # Host: vads.com hosting
   # 202.75.32.0 - 202.75.63.255
     deny from 202.75.32.0/19 
