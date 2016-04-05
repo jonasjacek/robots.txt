@@ -96,6 +96,7 @@
   RewriteCond %{HTTP_USER_AGENT} link [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} linkapediabot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} linkdex [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} LinkpadBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} LinkWalker [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} LinqiaScrapeBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} lipperhey [NC,OR]

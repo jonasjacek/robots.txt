@@ -1,12 +1,5 @@
 # BLOCK IP'S, IP RANGES & CIDR
 
-  # UA: Mozilla/5.0 (Linux; [Android Version]; [Build Tag etc.]) AppleWebKit/[WebKit Rev] (KHTML, like Gecko) Chrome/[Chrome Rev] Mobile Safari/[WebKit Rev]
-  # Protocol: HTTP/1.1
-  # Robots.txt: No
-  # Host: Contabo GmbH
-  # Country: Germany
-    deny from 5.189.190.212
-
   # UA: Wurf
   # Protocol: HTTP/1.1
   # Robots.txt: Yes
@@ -20,6 +13,21 @@
   # Host: statastico.dk
   # 5.9.1.0 - 5.9.1.31
     deny from 5.9.1.0/27
+
+  # UA: Mozilla/5.0 (compatible; LinkpadBot/1.08; +http://www.linkpad.ru)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: leaseweb.com
+  # Country: Netherlands
+  # 5.79.64.0 - 5.79.127.255
+    deny from 5.79.64.0/18 
+
+  # UA: Mozilla/5.0 (Linux; [Android Version]; [Build Tag etc.]) AppleWebKit/[WebKit Rev] (KHTML, like Gecko) Chrome/[Chrome Rev] Mobile Safari/[WebKit Rev]
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: Contabo GmbH
+  # Country: Germany
+    deny from 5.189.190.212
 
   # Host: myLoc.de
   # 5.199.128.0 - 5.199.142.255
