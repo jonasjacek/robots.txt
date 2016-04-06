@@ -93,7 +93,7 @@
   RewriteCond %{HTTP_USER_AGENT} kraken [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} larbin [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} libcurl [NC,OR]
-  RewriteCond %{HTTP_USER_AGENT} libwww\-perl [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} libwww [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} link [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} linkapediabot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} linkdex [NC,OR]
