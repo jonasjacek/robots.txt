@@ -199,6 +199,7 @@
   RewriteCond %{HTTP_USER_AGENT} tbot\-nutch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} TeamSoft\ WinInet\ Component [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} TelegramBot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} thinglink [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} TitleBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Toolbar [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} trendictionbot [NC,OR]
