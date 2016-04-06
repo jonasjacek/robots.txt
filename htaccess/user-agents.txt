@@ -124,6 +124,7 @@
   RewriteCond %{HTTP_USER_AGENT} MS\ Web\ Services\ Client\ Protocol [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} NerdyBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Netcraft [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} newspaper [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} NextGenSearchBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} NujoSystemsBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} nutch [NC,OR]
