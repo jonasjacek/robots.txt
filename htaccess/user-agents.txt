@@ -208,6 +208,7 @@
   RewriteCond %{HTTP_USER_AGENT} Upflow [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Uptime [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} URLChecker [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} User\-Agent\: [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} validator [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} VB\ Project [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} vebidoobot [NC,OR]
