@@ -31,6 +31,7 @@
   RewriteCond %{HTTP_USER_AGENT} BLEXBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} bot\.araturka\.com [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} BrowseX [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} businessseek [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} check [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Chilkat [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Clickagy [NC,OR]
