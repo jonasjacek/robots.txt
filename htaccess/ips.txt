@@ -420,6 +420,13 @@
   # Host: Hetzner Online GmbH (clients.your-server.de)
     deny from 144.76.71.83
 
+  # UA: Calypso v/0.01
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: digitalocean.com
+  # 159.203.0.0 - 159.203.255.255
+    deny from 159.203.0.0/16
+
   # Host: Datapipe, Inc (gogrid.com)
   # Country: Netherlands
   # 164.40.128.0 - 164.40.159.255
