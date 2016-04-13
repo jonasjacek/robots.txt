@@ -209,6 +209,13 @@
     
   # illiad 
     deny from 62.210.0.0/17
+
+  # UA: RSSingBot (http://www.rssing.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: reliablesite.net
+  # 64.237.32.0 - 64.237.63.255
+    deny from 64.237.32.0/19 
     
   # webcrawler.link
   # Robots.txt: No
