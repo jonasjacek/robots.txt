@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-03-10                                                      #
+# Last update: 2016-04-20                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -22,6 +22,7 @@ User-agent: AdsBot-Google
 User-agent: adidxbot
 # apple.com search engine
 User-agent: Applebot
+user-agent: AppleNewsBot
 # archive.org bots
 User-agent: archive.org_bot
 # baidu.com chinese search engine
