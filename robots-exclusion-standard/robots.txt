@@ -105,6 +105,7 @@ User-agent: Teoma
 User-agent: yacybot
 # yandex.com russian search engine
 User-agent: Yandex
+User-agent: YandexMobileBot
 # naver.com south korean search engine
 user-agent: Yeti
 # yooz.ir iranian search engine

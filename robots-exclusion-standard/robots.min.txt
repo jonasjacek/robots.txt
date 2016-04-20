@@ -51,6 +51,7 @@ User-agent: SputnikBot
 User-agent: Teoma
 User-agent: yacybot
 User-agent: Yandex
+User-agent: YandexMobileBot
 User-agent: Yeti
 User-agent: yoozBot
 User-agent: YoudaoBot

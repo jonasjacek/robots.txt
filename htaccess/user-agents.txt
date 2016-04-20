@@ -168,6 +168,7 @@
   RewriteCond %{HTTP_USER_AGENT} RSSingBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} RSSMicro [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} RPT\-HTTPClient [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Ruby [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} RukiCrawler [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SafeDNS [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SafeSearch [NC,OR]
