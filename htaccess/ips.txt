@@ -210,6 +210,14 @@
   # illiad 
     deny from 62.210.0.0/17
 
+  # UA: CliniComp Webcrawler/Nutch-1.11
+  # Protocol: HTTP/1.0
+  # Robots.txt: yes, but ignores it
+  # Host: internap.com
+  # Country: United States of America
+  # NetRange: 63.251.0.0 - 63.251.255.255
+    deny from 63.251.0.0/16
+
   # UA: RSSingBot (http://www.rssing.com)
   # Protocol: HTTP/1.1
   # Robots.txt: No
