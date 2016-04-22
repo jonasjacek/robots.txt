@@ -94,17 +94,18 @@
   # Host: AWS  
     deny from 52.34.255.46
 
-  # UA: SalesIntelligent/v1.0
-  # Protocol: HTTP/1.0
-  # Robots.txt: No
-  # Host: AWS
-  # 52.84.0.0 - 52.95.255.255
-    deny from 52.88.0.0/13
-    deny from 52.84.0.0/14 
-
   # UA: Clickagy Intelligence Bot v2
   # Protocol: HTTP/1.1
   # Robots.txt: Yes
+
+  # UA: SalesIntelligent/v1.0
+  # Protocol: HTTP/1.0
+  # Robots.txt: No
+
+  # UA: Sideqik +http://www.sideqik.com
+  # Protocol: HTTP/1.1
+  # Robots.txt: No 
+
   # Host: AWS
   # 52.84.0.0 - 52.95.255.255
     deny from 52.88.0.0/13
