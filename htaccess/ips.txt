@@ -128,6 +128,13 @@
   # 54.208.0.0 - 54.209.255.255
     deny from 54.208.0.0/15 
 
+  # UA: Mozilla/5.0 (compatible; Primalbot; +https://www.primal.com;)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # 54.204.0.0 - 54.205.255.255
+    deny from 54.204.0.0/15 
+
   # UA: Various
   # Protocol: HTTP/1.1
   # Robots.txt: No

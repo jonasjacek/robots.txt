@@ -153,6 +153,7 @@
   RewriteCond %{HTTP_USER_AGENT} plista [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} POE\-Component\-Client\-HTTP [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Prezibot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Primalbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} PrivacyAwareBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} PrivateSearch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} prlog [NC,OR]
