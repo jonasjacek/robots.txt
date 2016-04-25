@@ -116,6 +116,7 @@
   RewriteCond %{HTTP_USER_AGENT} Mediatoolkitbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Mediumbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} megaindex [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Melvil\ Rawi [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} memorybot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} mfibot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Microsoft\ URL\ Control [NC,OR]
