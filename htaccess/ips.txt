@@ -511,7 +511,9 @@
   # Host: cyberdyne.net.lr
   # Country: Liberia
   # 197.231.220.0 - 197.231.223.255
+  # 197.231.221.0 - 197.231.221.255 
     deny from 197.231.220.0/22
+    deny from 197.231.221.0/24
 
   # UA: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2) Gecko/20100115 Firefox/3.6 (.NET CLR 3.5.30729)
   # Protocol: HTTP/1.1
