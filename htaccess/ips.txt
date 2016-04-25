@@ -200,19 +200,23 @@
     deny from 54.204.160.80/29
     deny from 54.204.160.88/30
 
-  # UA: SpuhexBot+(+http://www.spuhex.com)
-  # Protocol: HTTP/1.1
-  # Robots.txt: No
-  # Country: Russia
-  # Host: corbina.ru
-    deny from 85.21.233.180 
-
   # UA: omgili/0.5 +http://omgili.com
   # Protocol: HTTP/1.1
   # Robots.txt: Yes
   # Country: Israel
   # 62.0.1.0 - 62.0.1.255
     deny from 62.0.1.0/24 
+
+  # Host: firstvds.ru
+  # Country: Russia
+  # 62.109.0.0 - 62.109.15.255
+    deny from 62.109.0.0/20 
+  # 82.146.32.0 - 82.146.63.255
+    deny from 82.146.32.0/19 
+  # 92.63.96.0 - 92.63.103.255
+    deny from 92.63.96.0/21
+  # 188.120.224.0 - 188.120.255.255
+    deny from 188.120.224.0/19
 
   # UA: Mozilla/5.0 (compatible; SEOlyticsCrawler/3.0; +http://crawler.seolytics.net/)
   # Protocol: HTTP/1.1
@@ -334,6 +338,13 @@
   # Host: LeaseWeb
     deny from 85.17.0.0/16
 
+  # UA: SpuhexBot+(+http://www.spuhex.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Country: Russia
+  # Host: corbina.ru
+    deny from 85.21.233.180 
+
   # UA: Various
   # Robots.txt: No
   # Country: France
@@ -400,6 +411,12 @@
   # Host: Yahoo
   # 114.111.64.0 - 114.111.127.255
     deny from 114.111.64.0/18 
+
+  # Host: CloudVsp.Inc
+  # Country: China
+  # 120.132.32.0 - 120.132.95.255
+    deny from 120.132.32.0/19
+    deny from 120.132.64.0/19 
 
   # UA: Pu_iN Crawler (+http://semanticjuice.com/)
   # UA: Putin (+http3://semanticjuice.com/)
@@ -553,5 +570,10 @@
   # Host: opusinteractive.com
   # 216.151.0.0 - 216.151.31.255
     deny from 216.151.0.0/19
+
+  # Host: BroadRiver Inc.
+  # Country: United States
+  # 216.126.32.0 - 216.126.47.255
+    deny from 216.126.32.0/20
 
 allow from all
