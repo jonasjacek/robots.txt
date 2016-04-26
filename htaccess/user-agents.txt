@@ -80,6 +80,7 @@
   RewriteCond %{HTTP_USER_AGENT} hosterstats [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} HTMLGET [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} HTMLParser [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} HTTP [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} HTTrack [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} hubspot\ marketing\ grader [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ia_archiver [NC,OR]
