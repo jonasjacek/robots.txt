@@ -128,6 +128,7 @@
   RewriteCond %{HTTP_USER_AGENT} MJ12bot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Mnogosearch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} moget [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Mojolicious [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} MS\ Search\ 6\.0\ Robot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} MS\ Web\ Services\ Client\ Protocol [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} NerdyBot [NC,OR]

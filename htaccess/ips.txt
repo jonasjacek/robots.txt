@@ -350,6 +350,14 @@
   # Country: France
     deny from 85.93.89.74
     deny from 85.93.89.232
+  
+  # UA: Mojolicious (Perl)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: strato.de
+  # Country: Germany
+  # 85.214.0.0 - 85.215.255.255
+    deny from 85.214.0.0/15 
 
   # Host: xtglobal.vg - XT GLOBAL NETWORKS LTD.
   # 86.106.16.0 - 86.106.19.255
