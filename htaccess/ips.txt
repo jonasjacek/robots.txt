@@ -351,7 +351,7 @@
     deny from 85.93.89.74
     deny from 85.93.89.232
   
-  # UA: Mojolicious (Perl)
+  # UA: Mojolicious
   # Protocol: HTTP/1.1
   # Robots.txt: No
   # Host: strato.de
