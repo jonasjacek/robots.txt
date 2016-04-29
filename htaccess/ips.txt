@@ -554,6 +554,11 @@
   # 199.59.240.0 - 199.59.243.255
     deny from 199.59.240.0/22 
 
+  # Host: version-next.com
+  # Country: United States of America
+  # NetRange: 199.191.58.196 - 199.191.58.199
+    deny from 199.191.58.196/30
+
   # Host: vads.com hosting
   # 202.75.32.0 - 202.75.63.255
     deny from 202.75.32.0/19 
