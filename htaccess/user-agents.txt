@@ -16,6 +16,8 @@
   RewriteCond %{HTTP_USER_AGENT} AdvBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ahrefsbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} AlexaToolbar [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} America\ Online\ Browser [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} AOL [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} appengine\-google [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Applebot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Arachnida [NC,OR]
