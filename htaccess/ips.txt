@@ -4,14 +4,14 @@
   # Protocol: HTTP/1.1
   # Robots.txt: Yes
   # Host: hetzner.de
-  # 5.9.0.0 - 5.9.255.255
+  # NetRange: 5.9.0.0 - 5.9.255.255
     deny from 5.9.0.0/16
 
   # UA: Statastico/4.0
   # Protocol: HTTP/1.1
   # Robots.txt: No
   # Host: statastico.dk
-  # 5.9.1.0 - 5.9.1.31
+  # NetRange: 5.9.1.0 - 5.9.1.31
     deny from 5.9.1.0/27
 
   # UA: Mozilla/5.0 (compatible; LinkpadBot/1.08; +http://www.linkpad.ru)
@@ -19,7 +19,7 @@
   # Robots.txt: No
   # Host: leaseweb.com
   # Country: Netherlands
-  # 5.79.64.0 - 5.79.127.255
+  # NetRange: 5.79.64.0 - 5.79.127.255
     deny from 5.79.64.0/18 
 
   # UA: Mozilla/5.0 (Linux; [Android Version]; [Build Tag etc.]) AppleWebKit/[WebKit Rev] (KHTML, like Gecko) Chrome/[Chrome Rev] Mobile Safari/[WebKit Rev]
@@ -39,23 +39,27 @@
   # 193.111.136.0 - 193.111.143.255
     deny from 193.111.136.0/21 
 
+  # Host: AWS
+  # NetRange: 23.20.0.0 - 23.23.255.255
+    deny from 23.20.0.0/14 
+
   # UA: Mozilla/5.0 (compatible; Veoozbot/1.0; +http://www.veooz.com/veoozbot.html)
   # Protocol: HTTP/1.1
   # Robots.txt: No
   # Host: linode.com
-  # 23.239.0.0 - 23.239.31.255
+  # NetRange: 23.239.0.0 - 23.239.31.255
     deny from 23.239.0.0/19 
 
   # racksrv.com
   # Country: United Kingdom
-  # 37.26.104.0 - 37.26.111.255
+  # NetRange: 37.26.104.0 - 37.26.111.255
     deny from 37.26.104.0/21 
 
   # UA: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
   # Protocol: HTTP/1.1
   # Host: PSINet, Inc.
   # Country: United States
-  # 38.0.0.0 - 38.255.255.255
+  # NetRange: 38.0.0.0 - 38.255.255.255
     deny from 38.0.0.0/8
 
   # UA: Various
