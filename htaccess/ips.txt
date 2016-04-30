@@ -87,24 +87,21 @@
   # Host: AWS
     deny from 52.29.105.112
 
-  # UA: FetchStream
-  # Protocol: HTTP/1.1
-  # Robots.txt: No
-  # Host: AWS
-  # 52.32.0.0 - 52.63.255.255
-    deny from 52.32.0.0/11 
-
-  # UA: VegeBot 
-  # Protocol: HTTP/1.1
-  # Robots.txt: No
-  # Host: AWS
-  # 52.32.0.0 - 52.63.255.255
-    deny from 52.32.0.0/11 
-  
   # UA: Donuts Content Explorer (www.donuts.domains)
-  # Robots.txt: No
-  # Host: AWS  
-    deny from 52.34.255.46
+  #   Robots.txt: No
+  # UA: FetchStream
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: No
+  # UA: Spider
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: No
+  # UA: VegeBot 
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: No
+  # Host: AWS
+  # Country: United States of America
+  # NetRange: 52.32.0.0 - 52.63.255.255
+    deny from 52.32.0.0/11
 
   # UA: Clickagy Intelligence Bot v2
   #   Protocol: HTTP/1.1
@@ -147,6 +144,11 @@
   # 54.204.0.0 - 54.205.255.255
     deny from 54.204.0.0/15 
 
+  # UA: Faveeo/1.0; +http://www.faveeo.com
+  # Robots.txt: No
+  # Host: AWS
+    deny from 54.144.0.0/12
+    
   # UA: Various
   # Protocol: HTTP/1.1
   # Robots.txt: No
@@ -154,11 +156,6 @@
     deny from 54.145.216.149
     deny from 54.163.117.142
 
-  # UA: Faveeo/1.0; +http://www.faveeo.com
-  # Robots.txt: No
-  # Host: AWS
-    deny from 54.144.0.0/12
-    
   # UA: eContext/1.0 (Content Classification Engine)
   # Robots.txt: yes
   # Host: AWS
