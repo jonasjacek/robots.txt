@@ -430,6 +430,11 @@
   # Host: tektonic.net
     deny from 108.161.128.0/20
 
+  # Host: dravanet.hu
+  # Country: HU
+  # NetRange: 109.61.0.0 - 109.61.127.255
+    deny from 109.61.0.0/17
+
   # UA: Wing/2 (GM 1.3.5)
   # Protocol: HTTP/1.1
   # Robots.txt: No
@@ -438,7 +443,7 @@
     deny from 114.111.64.0/18 
 
   # Host: CloudVsp.Inc
-  # Country: China
+  # Country: CN
   # 120.132.32.0 - 120.132.95.255
     deny from 120.132.32.0/19
     deny from 120.132.64.0/19 
