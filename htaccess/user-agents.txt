@@ -220,6 +220,7 @@
   RewriteCond %{HTTP_USER_AGENT} thinglink [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} TitleBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Toolbar [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} traackr [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} trendictionbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} turnitinbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ubiqway [NC,OR]
