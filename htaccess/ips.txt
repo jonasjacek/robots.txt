@@ -99,7 +99,7 @@
   #   Protocol: HTTP/1.1
   #   Robots.txt: No
   # Host: AWS
-  # Country: United States of America
+  # Country: US
   # NetRange: 52.32.0.0 - 52.63.255.255
     deny from 52.32.0.0/11
 
@@ -242,7 +242,7 @@
   # Protocol: HTTP/1.0
   # Robots.txt: yes, but ignores it
   # Host: internap.com
-  # Country: United States of America
+  # Country: US
   # NetRange: 63.251.0.0 - 63.251.255.255
     deny from 63.251.0.0/16
 
@@ -265,9 +265,18 @@
     deny from 66.199.128.0/18 
 
   # Host: ihsystem.com
-  # 66.235.214.0 - 66.235.214.255
+  # Country: US
+  # NetRange: 66.235.214.0 - 66.235.214.255
     deny from 66.235.214.0/24
-  # 72.22.68.0 - 72.22.68.255
+
+  # Host: americanis.net
+  # Country: US
+  # NetRange: 69.165.48.0 - 69.165.63.255
+    deny from 69.165.48.0/20
+
+  # Host: ihsystem.com
+  # Country: US
+  # NetRange: 72.22.68.0 - 72.22.68.255
     deny from 72.22.68.0/24
 
   # UA: panscient.com
@@ -504,6 +513,11 @@
   # 172.245.0.0 - 172.245.255.255
     deny from 172.245.0.0/16 
 
+  # Host: americanis.net
+  # Country: US
+  # NetRange: 173.213.240.0 - 173.213.255.255
+    deny from 173.213.240.0/20
+
   # UA: semalt
   # Robots.txt: No
     deny from 177.207.16.134
@@ -554,29 +568,39 @@
     deny from 198.199.14.0/23 
 
   # Host: bodis.com (domain parking & content scraping)
-  # Country: United States of America
+  # Country: US
   # 199.59.240.0 - 199.59.243.255
     deny from 199.59.240.0/22 
 
   # Host: version-next.com
-  # Country: United States of America
+  # Country: US
   # NetRange: 199.191.58.196 - 199.191.58.199
     deny from 199.191.58.196/30
 
   # Host: vads.com hosting
-  # 202.75.32.0 - 202.75.63.255
+  # Country: MY
+  # NetRange: 202.75.32.0 - 202.75.63.255
     deny from 202.75.32.0/19 
 
+  # Host: americanis.net
+  # Country: US
+  # NetRange: 204.68.96.0 - 204.68.127.255
+    deny from 204.68.96.0/19
+  # NetRange: 206.71.160.0 - 206.71.191.255
+    deny from 206.71.160.0/19
+  # NetRange: 206.251.224.0 - 206.251.255.255
+    deny from 206.251.224.0/19
+
   # Host: privatesystems.net
-  # Country: United States of America
+  # Country: US
   # NetRange: 207.7.80.0 - 207.7.87.255
     deny from 207.7.80.0/21
 
   # Robots.txt: No
   # Protocol: HTTP/1.0
   # Host: intellnetwork.net
-  # Country: United States
-  # 207.90.2.7 - 207.90.2.70
+  # Country: US
+  # NetRange: 207.90.2.7 - 207.90.2.70
     deny from 207.90.2.7/32
     deny from 207.90.2.8/29
     deny from 207.90.2.16/28
@@ -585,21 +609,31 @@
     deny from 207.90.2.68/31
     deny from 207.90.2.70/32
 
+  # Host: americanis.net
+  # Country: US
+  # NetRange: 207.158.0.0 - 207.158.63.255
+    deny from 207.158.0.0/18
+  # NetRange: 209.112.240.0 - 209.112.255.255
+    deny from 209.112.240.0/20
+  # NetRange: 209.216.192.0 - 209.216.255.255
+    deny from 209.216.192.0/18
+
   # Host: racksrv.com
-  # Country: United Kingdom
-  # 213.5.176.0 - 213.5.183.255
+  # Country: UK
+  # NetRange: 213.5.176.0 - 213.5.183.255
     deny from 213.5.176.0/21
 
   # UA: Mozilla/5.0 (compatible; WbSrch/1.1 +http://wbsrch.com)
   # Protocol: HTTP/1.1
   # Robots.txt: No 
   # Host: opusinteractive.com
-  # 216.151.0.0 - 216.151.31.255
+  # Country: US
+  # NetRange: 216.151.0.0 - 216.151.31.255
     deny from 216.151.0.0/19
 
   # Host: BroadRiver Inc.
-  # Country: United States
-  # 216.126.32.0 - 216.126.47.255
+  # Country: US
+  # NetRange: 216.126.32.0 - 216.126.47.255
     deny from 216.126.32.0/20
 
 allow from all
