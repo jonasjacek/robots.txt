@@ -66,14 +66,20 @@
     deny from 45.55.229.140
 
   # Comapany: Seodedic
-  # 46.161.9.0 - 46.161.9.255
+  # Country: RU
+  # NetRange: 46.161.9.0 - 46.161.9.255
     deny from 46.161.9.0/24 
+
+  # Host: AWS
+  # Country: US
+  # NetRange: 50.16.0.0 - 50.19.255.255
+    deny from 50.16.0.0/14 
 
   # UA: Melvil Rawi/1.0
   # Protocol: HTTP/1.1
   # Robots.txt: No
   # Host: ovh.net
-  # Country: France
+  # Country: FR
   # 51.254.0.0 - 51.255.255.255
     deny from 51.254.0.0/15
 
