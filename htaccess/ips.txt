@@ -51,14 +51,14 @@
     deny from 23.239.0.0/19 
 
   # racksrv.com
-  # Country: United Kingdom
+  # Country: UK
   # NetRange: 37.26.104.0 - 37.26.111.255
     deny from 37.26.104.0/21 
 
   # UA: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.2)
   # Protocol: HTTP/1.1
   # Host: PSINet, Inc.
-  # Country: United States
+  # Country: US
   # NetRange: 38.0.0.0 - 38.255.255.255
     deny from 38.0.0.0/8
 
@@ -73,8 +73,8 @@
   # UA: Riddler (http://riddler.io/about)
   #   Protocol: HTTP/1.0
   #   Robots.txt: No
-  # Host: Hetzner Online GmbH
-  # Country: Germany
+  # Host: Hetzner Online GmbH, hetzner.de
+  # Country: DE
   # NetRange: 46.4.0.0 - 46.4.255.255
     deny from 46.4.0.0/16
 
@@ -536,6 +536,12 @@
   # Country: US
   # NetRange: 173.213.240.0 - 173.213.255.255
     deny from 173.213.240.0/20
+
+  # Host: Hetzner Online GmbH, hetzner.de
+  # Country: DE
+  # NetRange: 176.9.139.224 - 176.9.139.255
+    deny from 176.9.139.224/27
+
 
   # UA: semalt
   # Robots.txt: No
