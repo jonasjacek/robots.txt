@@ -70,6 +70,14 @@
   # NetRange: 46.161.9.0 - 46.161.9.255
     deny from 46.161.9.0/24 
 
+  # UA: Riddler (http://riddler.io/about)
+  #   Protocol: HTTP/1.0
+  #   Robots.txt: No
+  # Host: Hetzner Online GmbH
+  # Country: Germany
+  # NetRange: 46.4.0.0 - 46.4.255.255
+    deny from 46.4.0.0/16
+
   # Host: AWS
   # Country: US
   # NetRange: 50.16.0.0 - 50.19.255.255
