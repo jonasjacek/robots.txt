@@ -580,6 +580,13 @@
   # 188.42.240.0 - 188.42.247.255 
     deny from 188.42.240.0/21
 
+  # UA: Mozilla/5.0 (compatible; Dataprovider/6.92; +https://www.dataprovider.com/)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Parent: ovh.ca
+  # NetRange: 192.99.0.0 - 192.99.255.255
+    deny from 192.99.0.0/16
+
   # Host: cyberdyne.net.lr
   # Country: Liberia
   # 197.231.220.0 - 197.231.223.255

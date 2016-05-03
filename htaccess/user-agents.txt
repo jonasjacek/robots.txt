@@ -46,6 +46,7 @@
   RewriteCond %{HTTP_USER_AGENT} Curebot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} curl [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} dataspear [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Dataprovider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Daumoa [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Digincore [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Dispatch [NC,OR]
