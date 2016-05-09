@@ -1,4 +1,4 @@
-# BLOCK IP'S, IP RANGES & CIDR
+CK IP'S, IP RANGES & CIDR
 
   # UA: Wurf
   # Protocol: HTTP/1.1
@@ -141,7 +141,7 @@
   #   Robots.txt: No 
   # UA: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)
   #   Protocol: HTTP/1.1
-  #   Robots.txt: No 
+  #   Robots.txt: No
   # UA: SalesIntelligent/v1.0
   #   Protocol: HTTP/1.0
   #   Robots.txt: No
@@ -701,3 +701,5 @@
     deny from 216.126.32.0/20
 
 allow from all
+
+
