@@ -92,15 +92,16 @@
     deny from 51.254.0.0/15
 
   # UA: Svven-Summarizer
-  # Robots.txt: No
-  # Host: AWS
+  #   Robots.txt: No
+  # UA: LinqiaScrapeBot/1.0 (eng@linqia.com)
+  #   Robots.txt: Yes
+  # UA: SafeSearch microdata crawler
+  #   Robots.txt: No
+  # Host AWS
+  # Country: US
+  # NetRange: 52.0.0.0 - 52.31.255.255 
     deny from 52.0.0.0/11
     
-  # UA: SafeSearch microdata crawler
-  # Robots.txt: No
-  # Host: AWS
-    deny from 52.29.105.112
-
   # UA: Donuts Content Explorer (www.donuts.domains)
   #   Robots.txt: No
   # UA: FetchStream
@@ -117,6 +118,21 @@
   # NetRange: 52.32.0.0 - 52.63.255.255
     deny from 52.32.0.0/11
 
+  # UA: LinqiaScrapeBot/1.0 (eng@linqia.com)
+  # Robots.txt: Yes
+  # Host AWS
+  # Country: US 
+  # NetRange: 54.64.0.0 - 54.71.255.255
+    deny from 54.64.0.0/13
+
+  # UA: Mozilla/5.0 (compatible; Prezibot/1.0; +https://prezi.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # Country: US
+  # NetRange: 54.72.0.0 - 54.73.255.255
+    deny from 54.72.0.0/15
+    
   # UA: Clickagy Intelligence Bot v2
   #   Protocol: HTTP/1.1
   #   Robots.txt: Yes
@@ -130,18 +146,11 @@
   #   Protocol: HTTP/1.1
   #   Robots.txt: No 
   # Host: AWS
-  # 52.84.0.0 - 52.95.255.255
+  # Country: US
+  # NetRange: 52.84.0.0 - 52.95.255.255
     deny from 52.88.0.0/13
     deny from 52.84.0.0/14 
 
-  # UA: Mozilla/5.0 (compatible; Prezibot/1.0; +https://prezi.com)
-  # Protocol: HTTP/1.1
-  # Robots.txt: No
-  # Host: AWS
-  # 54.72.0.0 - 54.95.255.255
-    deny from 54.72.0.0/13 
-    deny from 54.80.0.0/12
-    
   # UA: GermCrawler
   # Protocol: HTTP/1.1
   # Robots.txt: No
@@ -190,13 +199,6 @@
   # 54.208.0.0 - 54.209.255.255
     deny from 54.208.0.0/15 
     
-  # UA: LinqiaScrapeBot/1.0 (eng@linqia.com)
-  # Robots.txt: Yes
-  # Host AWS
-  # 54.64.0.0 - 54.95.255.255 
-    deny from 52.23.238.242
-    deny from 54.64.0.0/11
-
   # UA:Googlebot (gocrawl v0.4)
   # Robots.txt: No
   # Host: AWS
