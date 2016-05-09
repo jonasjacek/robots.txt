@@ -148,6 +148,11 @@ CK IP'S, IP RANGES & CIDR
   # UA: Sideqik +http://www.sideqik.com
   #   Protocol: HTTP/1.1
   #   Robots.txt: No 
+  # UA: Slackbot 1.0 (+https://api.slack.com/robots)
+  # UA: Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)
+  # UA: Slack-ImgProxy 0.19 (+https://api.slack.com/robots)
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: No
   # Host: AWS
   # Country: US
   # NetRange: 52.84.0.0 - 52.95.255.255
@@ -187,6 +192,16 @@ CK IP'S, IP RANGES & CIDR
   # Host: AWS
   # 54.144.0.0 - 54.159.255.255
     deny from 54.144.0.0/12 
+
+  # UA: Slackbot 1.0 (+https://api.slack.com/robots)
+  # UA: Slackbot-LinkExpanding 1.0 (+https://api.slack.com/robots)
+  # UA: Slack-ImgProxy 0.19 (+https://api.slack.com/robots)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # Country: US
+  # NetRange: 54.160.0.0 - 54.175.255.255
+    deny from 54.160.0.0/12 
 
   # UA: Mozilla/4.0 (compatible; MSIE 6.0; America Online Browser 1.1; rev1.5; Windows NT 5.1; SV1; .NET CLR 1.1.4322; InfoPath.1)
   # Robots.txt: No
