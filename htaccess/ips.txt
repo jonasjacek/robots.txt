@@ -139,6 +139,9 @@
   # UA: Mozilla/5.0 (compatible; pdffillerbot/1.0; +http://www.pdffiller.com/en/support.htm)
   #   Protocol: HTTP/1.0
   #   Robots.txt: No 
+  # UA: PocketParser/2.0 (+https://getpocket.com/pocketparser_ua)
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: No 
   # UA: SalesIntelligent/v1.0
   #   Protocol: HTTP/1.0
   #   Robots.txt: No
