@@ -222,6 +222,14 @@
     deny from 54.204.160.80/29
     deny from 54.204.160.88/30
 
+  # UA: FeedChecker-Zocle/1.0 (+https://zocle.com/zoclechecker)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: AWS
+  # Country: US
+  # NetRange: 54.210.0.0 - 54.211.255.255
+    deny from 54.210.0.0/15
+
   # UA: omgili/0.5 +http://omgili.com
   # Protocol: HTTP/1.1
   # Robots.txt: Yes
