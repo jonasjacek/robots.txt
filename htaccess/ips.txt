@@ -627,6 +627,14 @@ CK IP'S, IP RANGES & CIDR
   # 188.42.240.0 - 188.42.247.255 
     deny from 188.42.240.0/21
 
+  # UA: Mozilla/5.0 (Windows 10; WOW64; rv:41.0) Gecko/20100101 Firefox/41.0
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: Golden Telecom
+  # Country: UA
+  # NetRange: 188.163.64.0 - 188.163.127.255
+    deny from 188.163.64.0/18 
+
   # UA: Mozilla/5.0 (compatible; Dataprovider/6.92; +https://www.dataprovider.com/)
   # Protocol: HTTP/1.1
   # Robots.txt: No
