@@ -5,10 +5,11 @@
   RewriteRule ^ - [F]
 
 # BLOCK USER-AGENTS BY TYPE
-  RewriteCond %{HTTP_USER_AGENT} "MSIE [1-6]" [NC]
+  RewriteCond %{HTTP_USER_AGENT} "MSIE [1-6]" [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} "Windows NT [1-5]" [NC]
   RewriteRule ^ - [F]
 
-# BLOCK USER AGENTS (ENFORCE ROBOTS.TXT)
+# BLOCK SPECIFIC USER AGENTS (ENFORCE ROBOTS.TXT)
   RewriteCond %{HTTP_USER_AGENT} 007ac9 [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} 360spider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} abot [NC,OR]
