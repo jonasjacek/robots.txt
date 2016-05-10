@@ -642,6 +642,14 @@ CK IP'S, IP RANGES & CIDR
   # NetRange: 192.99.0.0 - 192.99.255.255
     deny from 192.99.0.0/16
 
+  # UA: Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1) ; .NET CLR 2.0.50727 ; .NET CLR 4.0.30319)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: Online SAS - https://www.online.net/
+  # Country: FR                                                                                                                                            
+  # NetRange: 195.154.0.0 - 195.154.255.255
+    deny from 195.154.0.0/16
+
   # Host: cyberdyne.net.lr
   # Country: Liberia
   # 197.231.220.0 - 197.231.223.255
