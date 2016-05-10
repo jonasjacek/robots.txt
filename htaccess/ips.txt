@@ -1,4 +1,4 @@
-BLOCK IP'S, IP RANGES & CIDR
+# BLOCK IP'S, IP RANGES & CIDR
 
   # UA: Wurf
   # Protocol: HTTP/1.1
