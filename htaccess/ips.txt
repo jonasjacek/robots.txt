@@ -593,8 +593,15 @@ CK IP'S, IP RANGES & CIDR
   # 164.132.0.0 - 164.132.255.255
     deny from 164.132.0.0/16
 
-  # 172.245.0.0 - 172.245.255.255
-    deny from 172.245.0.0/16 
+  # Host: Secure Internet LLC - http://www.gaditek.com/
+  # Country: SC
+  # NetRange: 172.111.128.0 - 172.111.255.255
+    deny from 172.111.128.0/17
+
+  # Host: B2 Net Solutions Inc. - https://www.servermania.com/
+  # Country: US
+  # 172.245.0.0 - 172.245.0.255
+    deny from 172.245.0.0/24
 
   # Host: americanis.net
   # Country: US
