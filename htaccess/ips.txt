@@ -624,6 +624,11 @@ CK IP'S, IP RANGES & CIDR
   # Host: transitec.ru ISP
   # 178.217.176.0 - 178.217.183.255
 
+  # Host: Enter S.r.l. - http://www.enter.it/
+  # Country: IT
+  # NetRange: 185.48.32.0 - 185.48.35.255
+    deny form 185.48.32.0/23 
+
   # Host: Makonix SIA - http://www.makonix.com/
   # Country: LV
   # 185.61.148.0 - 185.61.151.255
