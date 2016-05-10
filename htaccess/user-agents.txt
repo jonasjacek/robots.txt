@@ -262,6 +262,7 @@
   RewriteCond %{HTTP_USER_AGENT} Wurf [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} xenu [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} xovibot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} x\.x\.x [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ZnajdzFoto [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Zocle [NC]
   RewriteRule !^robots\.txt$ - [F]
