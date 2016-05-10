@@ -627,7 +627,7 @@
   # Host: Enter S.r.l. - http://www.enter.it/
   # Country: IT
   # NetRange: 185.48.32.0 - 185.48.35.255
-    deny form 185.48.32.0/23 
+    deny from 185.48.32.0/23 
 
   # Host: Makonix SIA - http://www.makonix.com/
   # Country: LV
