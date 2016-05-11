@@ -65,6 +65,7 @@
   RewriteCond %{HTTP_USER_AGENT} evc\-batch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Exabot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Experibot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} facebook [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Faveeo [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} FetchStream [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} findxbot [NC,OR]
