@@ -760,6 +760,14 @@
   # NetRange: 209.216.192.0 - 209.216.255.255
     deny from 209.216.192.0/18
 
+  # UA: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:x.x.x) Gecko/20041107 Firefox/x.x
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: G DATA Software AG - http://www.tmr.net/
+  # Country: DE
+  # NetRange: 212.23.140.96 - 212.23.140.127
+    deny from 212.23.128.0/19
+
   # Host: racksrv.com
   # Country: UK
   # NetRange: 213.5.176.0 - 213.5.183.255
