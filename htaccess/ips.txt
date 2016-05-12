@@ -359,10 +359,15 @@
     deny from 74.87.160.16/30 
 
   # UA: Mozilla/5.0 (compatible; RankActiveLinkBot; +https://rankactive.com/resources/rankactive-linkbot)
-  # Protocol: HTTP/1.1
-  # Robots.txt: Yes
-  # Host: Hetzner Online GmbH
-    deny from 78.46.98.236
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: Yes
+  # UA: Various
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: No
+  # Host: Hetzner Online AG - https://www.hetzner.de/
+  # Country: DE
+  # NetRange: 78.46.0.0 - 78.47.255.255
+    deny from 78.46.0.0/15
 
   # Company: positive-internet.com
   # 80.87.128.0 - 80.87.143.255
