@@ -609,9 +609,17 @@
     deny from 164.40.128.0/19
 
   # UA: AhrefsBot/5.0
-  # Country: France
-  # 164.132.0.0 - 164.132.255.255
+  # Country: FR
+  # NetRange: 164.132.0.0 - 164.132.255.255
     deny from 164.132.0.0/16
+
+  # UA: Mozilla/5.0 (compatible; Dataprovider/6.92; +https://www.dataprovider.com/)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No 
+  # Host: OVH Hosting, Inc. - https://www.ovh.com/ca/
+  # Country: CA
+  # NetRange: 167.114.0.0 - 167.114.255.255
+    deny from 167.114.0.0/16
 
   # Host: Secure Internet LLC - http://www.gaditek.com/
   # Country: SC
