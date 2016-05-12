@@ -83,6 +83,7 @@
   RewriteCond %{HTTP_USER_AGENT} Goldfire\ Server [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Google\ Page\ Speed\ Insight [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} GrapeshotCrawler [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} HEADMasterSEO [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} heritrix [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} hosterstats [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} HTMLGET [NC,OR]
