@@ -206,6 +206,7 @@
   RewriteCond %{HTTP_USER_AGENT} SemrushBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Sideqik [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} sistrix [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} Skymonk [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} slackbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} SNAPSHOT [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Snoopy [NC,OR]
