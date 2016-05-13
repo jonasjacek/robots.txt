@@ -13,6 +13,7 @@
   RewriteCond %{HTTP_USER_AGENT} 007ac9 [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} 360spider [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} abot [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} ACHE [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} AdlesseBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} AdvBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} ahrefsbot [NC,OR]
