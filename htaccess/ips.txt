@@ -788,6 +788,14 @@
   # NetRange: 209.216.192.0 - 209.216.255.255
     deny from 209.216.192.0/18
 
+  # UA: NetTrack
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: XLHost.com - http://www.xlhost.com/
+  # Country: US
+  # NetRange: 207.182.128.0 - 207.182.159.255
+    deny from 207.182.128.0/19
+
   # UA: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:x.x.x) Gecko/20041107 Firefox/x.x
   # Protocol: HTTP/1.1
   # Robots.txt: No
