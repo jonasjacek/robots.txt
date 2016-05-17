@@ -326,6 +326,14 @@
   # NetRange: 66.235.214.0 - 66.235.214.255
     deny from 66.235.214.0/24
 
+  # UA: Mozilla/5.0 (compatible; MixrankBot; crawler@mixrank.com)
+  # Protocol: HTTP/1.1
+  # Robots.txt: No
+  # Host: NephoScale Inc. - nephoscale.com
+  # Country: US
+  # NetRange: 69.50.224.0 - 69.50.255.255
+    deny from 69.50.224.0/19
+
   # Host: americanis.net
   # Country: US
   # NetRange: 69.165.48.0 - 69.165.63.255
@@ -523,7 +531,8 @@
   # UA: Putin (+http3://semanticjuice.com/)
   # Robots.txt: Yes 
   # Host: Hetzner Online GmbH (clients.your-server.de)
-  # 136.243.0.0 - 136.243.255.255
+  # Country: DE
+  # NetRange: 136.243.0.0 - 136.243.255.255
     deny from 136.243.0.0/16
 
   # UA: CISPA Vulnerability Notification (https://notify.mmci.uni-saarland.de)
