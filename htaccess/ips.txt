@@ -1,9 +1,13 @@
 # BLOCK IP'S, IP RANGES & CIDR
 
+  # UA: ENLLE/enlle-0.5-BETA (buscador de enlle punto com; http://www.enlle.com; tarantula@enlle.com)
+  #   Protocol: HTTP/1.0
+  #   Robots.txt: No
   # UA: Wurf
-  # Protocol: HTTP/1.1
-  # Robots.txt: Yes
-  # Host: hetzner.de
+  #   Protocol: HTTP/1.1
+  #   Robots.txt: Yes
+  # Host: Hetzner Online GmbH - https://www.hetzner.de/
+  # Country: DE
   # NetRange: 5.9.0.0 - 5.9.255.255
     deny from 5.9.0.0/16
 

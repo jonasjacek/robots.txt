@@ -62,6 +62,7 @@
   RewriteCond %{HTTP_USER_AGENT} DotBot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} DTS\ Agent [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} eContext [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} enlle [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} etoolsbot [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} evc\-batch [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} Exabot [NC,OR]
