@@ -6,6 +6,7 @@
 
 # BLOCK USER-AGENTS BY TYPE
   RewriteCond %{HTTP_USER_AGENT} "MSIE [1-6]" [NC,OR]
+  RewriteCond %{HTTP_USER_AGENT} "Windows 98" [NC,OR]
   RewriteCond %{HTTP_USER_AGENT} "Windows NT [1-5]" [NC]
   RewriteRule ^ - [F]
 
