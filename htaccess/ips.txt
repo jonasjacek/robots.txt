@@ -87,6 +87,11 @@
   # NetRange: 46.4.0.0 - 46.4.255.255
     deny from 46.4.0.0/16
 
+  # Host: Advanced Hosters B.V. - https://advancedhosters.com/en/
+  # Country: US
+  # NetRange: 46.229.160.0 - 46.229.175.255
+    deny from 46.229.160.0/20
+
   # Host: AWS - https://aws.amazon.com/
   # Country: US
   # NetRange: 50.16.0.0 - 50.19.255.255
