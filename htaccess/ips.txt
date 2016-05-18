@@ -673,8 +673,15 @@
   # UA: Mozilla/5.0 (compatible; Getintent Crawler/0.6; +http://getintent.com; )
   # Protocol: HTTP/1.1
   # Robots.txt: No
-  # Host: transitec.ru ISP
-  # 178.217.176.0 - 178.217.183.255
+  # Host: Транзитек - http://transitec.ru/
+  # Country: RU
+  # NetRange: 178.217.176.0 - 178.217.183.255
+    deny from 178.217.176.0/21
+
+  # Host: Inulogic, SARL - https://www.inulogic.fr/
+  # Country: FR
+  # NetRange: 185.81.156.0 - 185.81.159.255
+    deny from 185.81.156.0/22
 
   # Host: Enter S.r.l. - http://www.enter.it/
   # Country: IT
