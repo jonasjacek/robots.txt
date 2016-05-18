@@ -502,14 +502,24 @@
   # 104.207.128.0 - 104.207.159.255
     deny from 104.207.128.0/19
 
-  # Host: vultr.com
-  # 104.207.144.0 - 104.207.145.255
+  # Host: Vultr Holdings, LLC - https://www.vultr.com/
+  # Country: US
+  # NetRange: 104.207.144.0 - 104.207.145.255
     deny from 104.207.144.0/23
 
-  # Host: Zenlayer Inc.
-  # 107.151.128.0 - 107.151.191.255
-    deny from 107.151.128.0/22
-  # 107.151.192.0 - 107.151.255.255
+  # Host: Amazon.com, Inc. - https://aws.amazon.com/
+  # Country: US
+  # NetRange: 107.20.0.0 - 107.23.255.255
+    deny from 107.20.0.0/14
+
+  # Host: Zenlayer Inc. - http://zenlayer.com/
+  # Country: US
+  # NetRange: 107.151.128.0 - 107.151.191.255
+    deny from 107.151.128.0/18 
+
+  # Host: VpsQuan L.L.C. - http://vpsquan.com/
+  # Country: US
+  # NetRange: 107.151.192.0 - 107.151.255.255
     deny from 107.151.192.0/18 
 
   # UA: Mozilla/5.0 (compatible; PrivacyAwareBot/1.1; +http://www.privacyaware.org) 
