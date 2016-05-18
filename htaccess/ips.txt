@@ -66,6 +66,11 @@
   # NetRange: 38.0.0.0 - 38.255.255.255
     deny from 38.0.0.0/8
 
+  # Host: Maroc Telecom SA - http://www.iam.ma/
+  # Country: MA
+  # NetRange: 41.140.0.0 - 41.143.255.255
+    deny from 41.140.0.0/14
+
   # UA: Various
     deny from 45.55.229.140
 
