@@ -483,10 +483,16 @@
   # 95.158.188.0 - 95.158.191.255
     deny from 95.158.188.0/22
 
+  # Host: Cloud Hosting Co.,Ltd. - https://www.cloudhosting.co.th/
+  # Country: TH
+  # NetRange: 103.13.228.0 - 103.13.229.255
+    deny from 103.13.228.0/23
+
   # UA: www.probethenet.com scanner
   # Protocol: HTTP/1.0
-  # Host: Wizard Tower TechnoServices LTD
-  # 104.128.144.0 - 104.128.159.255
+  # Host: Wizard IT Services - http://wizard.ca/
+  # Country: CA
+  # NetRange: 104.128.144.0 - 104.128.159.255
     deny from 104.128.144.0/20 
 
   # UA: Mozilla/5.0 (compatible; ReplazBot/3.0; +http://www.replaz.com)
