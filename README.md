@@ -26,7 +26,7 @@ The descision which bot is wanted/unwanted is done by the author, who is very co
 
 ## License
 
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Robots.txt</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jonasjacek/robots.txt" property="cc:attributionName" rel="cc:attributionURL">Jonas Jacek</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Permissions beyond the scope of this license may be available upon request at <a xmlns:cc="http://creativecommons.org/ns#" href="http://jonas.me/contact" rel="cc:morePermissions">http://jonas.me/contact</a>.
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Robots.txt</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jonasjacek/robots.txt" property="cc:attributionName" rel="cc:attributionURL">Jonas Jacek</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Permissions beyond the scope of this license may be available upon request at <a xmlns:cc="http://creativecommons.org/ns#" href="http://jonas.me/contact" rel="cc:morePermissions">http://jonas.me/</a>.
 
 ## Contribute
 
