@@ -1,3 +1,0 @@
-# BLOCK FILE REQUESTS
-# wordpress
-  RewriteRule (admin|administrator|blog|license|wordpress|wp-admin|wp-login|wp-signup|xmlrpc) - [NC,F] 

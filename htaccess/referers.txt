@@ -1,3 +1,0 @@
-# BLOCK CERTAIN REFERERS
-  RewriteCond %{HTTP_REFERER} (analytics|free-video-tool|prlog|ranking|responsive-test|semalt|seo) [NC]
-  RewriteRule .* - [F]
