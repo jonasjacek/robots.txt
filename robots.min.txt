@@ -28,6 +28,7 @@ User-agent: Googlebot-Image
 User-agent: Googlebot-Mobile
 User-agent: Googlebot-News
 User-agent: Googlebot-Video
+User-agent: HaoSouSpider
 User-agent: ichiro
 User-agent: JikeSpider
 User-agent: Lycos
