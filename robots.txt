@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-05-20                                                      #
+# Last update: 2016-06-22                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -104,6 +104,8 @@ User-agent: Sogou web spider
 User-agent: SputnikBot
 # ask.com international search engine
 User-agent: Teoma
+# twitter.com bot
+User-agent: Twitterbot
 # yacy.net p2p search software
 User-agent: yacybot
 # yandex.com russian search engine
