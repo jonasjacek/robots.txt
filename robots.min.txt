@@ -39,6 +39,7 @@ User-agent: msnbot
 User-agent: msnbot-media
 User-agent: OrangeBot
 User-agent: Plukkie
+User-agent: Qwantify
 User-agent: Rambler
 User-agent: SeznamBot
 User-agent: Sosospider
