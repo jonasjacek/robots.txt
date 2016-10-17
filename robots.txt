@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-09-19                                                      #
+# Last update: 2016-10-17                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -68,6 +68,8 @@ User-agent: Googlebot-Video
 User-agent: HaoSouSpider
 # goo.ne.jp japanese search engine
 User-agent: ichiro
+# istella.it italian search engine
+User-agent: istellabot
 # jike.com / chinaso.com chinese search engine
 User-agent: JikeSpider
 # lycos.com & hotbot.com international search engine

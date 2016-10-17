@@ -30,6 +30,7 @@ User-agent: Googlebot-News
 User-agent: Googlebot-Video
 User-agent: HaoSouSpider
 User-agent: ichiro
+User-agent: istellabot
 User-agent: JikeSpider
 User-agent: Lycos
 User-agent: Mail.Ru
