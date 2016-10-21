@@ -54,6 +54,7 @@ User-agent: Sogou web spider
 User-agent: SputnikBot
 User-agent: Teoma
 User-agent: Twitterbot
+User-agent: wotbox
 User-agent: yacybot
 User-agent: Yandex
 User-agent: YandexMobileBot
