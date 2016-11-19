@@ -6,7 +6,7 @@
 
 ### Robots.txt Template
 
-The robots.txt file contain an alphabetically ordered whitelisting of legitimate web robots. Each bot is shortly described in a comment above the (list of) user-agent(s). Uncomment or delete bots (User-agents) you do not wish to allow on your website / you do not need to visit your website.
+The robots.txt file contain an alphabetically ordered whitelisting of legitimate web robots. Each bot is shortly described in a comment above the (list of) user-agent(s). Uncomment or delete bots (User-agents) you do not wish to allow on your website.
 
 There are two robots.txt file versions:
 
