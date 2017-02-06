@@ -20,13 +20,13 @@ If you use the minified version, do not forget to rename it to `robots.txt` to b
 ***
 
 ## Warranty and Liability
-Compared to the vastness of the topic of blocking bots, [Robots.txt](https://github.com/jonasjacek/robots.txt) is a very small, private project! The author makes absolutely no claims and representations to warranties regarding the accuracy or completeness of the information provided. However, you can use the files in this repository AT YOUR OWN RISK.
+Compared to the vastness of the topic of blocking bots, [robots.txt](https://github.com/jonasjacek/robots.txt) is a very small, private project! The author makes absolutely no claims and representations to warranties regarding the accuracy or completeness of the information provided. However, you can use the files in this repository AT YOUR OWN RISK.
 
 The descision which bot is wanted/unwanted is done by the author, who is very conservative and opinionated when it comes to blocking bots. However, the author's decisions should be sufficient for many. Do not forget to adjust the list of allowed/forbidden directories to your needs.
 
 ## License
 
-<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Robots.txt</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jonasjacek/robots.txt" property="cc:attributionName" rel="cc:attributionURL">Jonas Jacek</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Permissions beyond the scope of this license may be available upon request at <a xmlns:cc="http://creativecommons.org/ns#" href="http://jonas.me/contact" rel="cc:morePermissions">http://jonas.me/</a>.
+<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Robots.txt</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/jonasjacek/robots.txt" property="cc:attributionName" rel="cc:attributionURL">Jonas Jacek</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>. Permissions beyond the scope of this license may be available upon request at <a xmlns:cc="http://creativecommons.org/ns#" href="http://jonas.me/#contact" rel="cc:morePermissions">http://jonas.me/</a>.
 
 ## Contribute
 
