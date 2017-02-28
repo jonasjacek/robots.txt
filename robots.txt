@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2016-11-19                                                      #
+# Last update: 2017-02-28                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -58,7 +58,7 @@ User-agent: Exploratodo
 User-agent: Facebot
 # feedly.com feed fetcher
 User-agent: Feedly
-# findx.com feed fetcher
+# findx.com european search engine
 User-agent: Findxbot
 # goo.ne.jp japanese search engine
 User-agent: gooblog
