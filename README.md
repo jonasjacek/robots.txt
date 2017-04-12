@@ -12,12 +12,12 @@ The robots.txt template files contain an alphabetically ordered **white list of 
 
 There are two robots.txt file versions:
 
-1. The regular file (inlc. comments)  
+1. The regular file (with comments)  
    `/robots.txt`
 2. The minified file (no comments)  
    `/robots.min.txt`
 
-If you use the minified version, do not forget to rename it to `robots.txt` to be affective.
+If you use the minified version, do not forget to rename it to `robots.txt` to be effective.
 
 ***
 
