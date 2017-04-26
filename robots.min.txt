@@ -11,7 +11,6 @@ User-agent: AdsBot-Google-Mobile-Apps
 User-agent: adidxbot
 User-agent: Applebot
 User-agent: AppleNewsBot
-User-agent: archive.org_bot
 User-agent: Baiduspider
 User-agent: Baiduspider-image
 User-agent: bingbot
