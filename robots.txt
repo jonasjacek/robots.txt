@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2017-04-26                                                      #
+# Last update: 2017-06-15                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -52,7 +52,7 @@ User-agent: DuckDuckGo-Favicons-Bot
 User-agent: EuripBot
 # exploratodo.com latin search engine
 User-agent: Exploratodo
-# facebook.com crawler
+# facebook.com social network
 User-agent: Facebot
 # feedly.com feed fetcher
 User-agent: Feedly
@@ -87,6 +87,8 @@ User-agent: msnbot
 User-agent: msnbot-media
 # orange.com international search engine
 User-agent: OrangeBot
+# pinterest.com social networtk
+User-agent: Pinterest
 # botje.nl dutch search engine
 User-agent: Plukkie
 # qwant.com french search engine

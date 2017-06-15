@@ -1,7 +1,7 @@
 ################################# ROBOTS.TXT ###################################
 # Updates can be retrieved from: https://github.com/jonasjacek/robots.txt      #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
-# Last update: 2017-04-26                                                      #
+# Last update: 2017-06-15                                                      #
 ################################################################################
 User-agent: 360Spider
 User-agent: 360Spider-Image
@@ -46,6 +46,7 @@ User-agent: MojeekBot
 User-agent: msnbot
 User-agent: msnbot-media
 User-agent: OrangeBot
+User-agent: Pinterest
 User-agent: Plukkie
 User-agent: Qwantify
 User-agent: Rambler
