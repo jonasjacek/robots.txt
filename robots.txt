@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2017-06-15                                                      #
+# Last update: 2017-07-28                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -123,6 +123,8 @@ User-agent: Yandex
 User-agent: YandexMobileBot
 # naver.com south korean search engine
 user-agent: Yeti
+# yioop.com international search engine
+User-agent: YioopBot
 # yooz.ir iranian search engine
 User-agent: yoozBot
 # youdao.com chinese search engine
