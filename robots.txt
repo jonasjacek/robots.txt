@@ -121,7 +121,7 @@ User-agent: yacybot
 # yandex.com russian search engine
 User-agent: Yandex
 User-agent: YandexMobileBot
-# naver.com south korean search engine
+# search.naver.com south korean search engine
 user-agent: Yeti
 # yioop.com international search engine
 User-agent: YioopBot
