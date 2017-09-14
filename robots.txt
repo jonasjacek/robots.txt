@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2017-07-28                                                      #
+# Last update: 2017-09-13                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
