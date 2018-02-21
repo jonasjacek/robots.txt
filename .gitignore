@@ -1,7 +1,7 @@
 # various
-
-# vim
+*.*~
 *.bak
+*.log
 *.swp
 *.swo
 *.vim
