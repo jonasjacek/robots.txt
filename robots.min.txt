@@ -1,7 +1,7 @@
 ################################# ROBOTS.TXT ###################################
 # Updates can be retrieved from: https://github.com/jonasjacek/robots.txt      #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
-# Last update: 2017-09-13                                                      #
+# Last update: 2019-03-07                                                      #
 ################################################################################
 User-agent: 360Spider
 User-agent: 360Spider-Image
@@ -15,6 +15,7 @@ User-agent: Baiduspider
 User-agent: Baiduspider-image
 User-agent: bingbot
 User-agent: BingPreview
+User-agent: BublupBot
 User-agent: CCBot
 User-agent: Cliqzbot
 User-agent: coccoc

@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2017-09-13                                                      #
+# Last update: 2019-03-07                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -31,6 +31,8 @@ User-agent: Baiduspider-image
 # bing.com international search engine
 User-agent: bingbot
 User-agent: BingPreview
+# bublup.com suggestion/search engine
+User-agent: BublupBot
 # commoncrawl.org open repository of web crawl data
 User-agent: CCBot
 # cliqz.com german in-product search engine
