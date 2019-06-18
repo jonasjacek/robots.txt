@@ -16,8 +16,9 @@
 User-agent: 360Spider
 User-agent: 360Spider-Image
 User-agent: 360Spider-Video
-# google.com landing page quality check
+# google.com landing page quality checks
 User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
 # google.com app resource fetcher
 User-agent: AdsBot-Google-Mobile-Apps
 # bing ads bot

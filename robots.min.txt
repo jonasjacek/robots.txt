@@ -7,6 +7,7 @@ User-agent: 360Spider
 User-agent: 360Spider-Image
 User-agent: 360Spider-Video
 User-agent: AdsBot-Google
+User-agent: AdsBot-Google-Mobile
 User-agent: AdsBot-Google-Mobile-Apps
 User-agent: adidxbot
 User-agent: Applebot
