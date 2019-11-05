@@ -1,7 +1,14 @@
-# various
+# GENERAL 
+# files types
 *.*~
 *.bak
+*.gho
 *.log
+*.ori
 *.swp
 *.swo
-*.vim
+*.tmp
+
+# SPECIFIC
+# exclude
+.meta/
