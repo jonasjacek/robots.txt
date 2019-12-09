@@ -19,6 +19,14 @@ There are two robots.txt file versions:
 
 If you use the minified version, do not forget to rename it to `robots.txt` to be effective.
 
+## Mirrors
+
+You can find this repository on:
+* GitLab  
+  [https://gitlab.com/jonasjacek/robots-txt](https://gitlab.com/jonasjacek/robots-txt)
+* GitHub  
+  [https://github.com/jonasjacek/robots.txt](https://github.com/jonasjacek/robots.txt)
+
 ***
 
 ## Warranty and Liability
