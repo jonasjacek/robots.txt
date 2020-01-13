@@ -21,7 +21,7 @@ If you use the minified version, do not forget to rename it to `robots.txt` to b
 
 ## Mirrors
 
-You can find this repository on:
+You can find this repository at:
 * GitLab  
   [https://gitlab.com/jonasjacek/robots-txt](https://gitlab.com/jonasjacek/robots-txt)
 * GitHub  
