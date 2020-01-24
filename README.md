@@ -2,7 +2,7 @@
 
 [Robots.txt](https://github.com/jonasjacek/robots.txt) is a repository that contains 2 **robots.txt file templates** to help webmasters keep unwanted web robots (e.g. scraper bots, people search engines, seo tools, marketing tools, etc.) away from their websites but allow legitimate robots (e.g. search engine crawlers). 
 
-To be legitimate and get listed, robots must fully obey the **Robots Exclusion Standard**. The robots.txt file templates are a white list. Unlisted robots are, by the conventions of the Robots Exclusion Standard, not allowed to access.
+To be legitimate and get listed, robots must fully obey the **Robots Exclusion Standard**. The robots.txt file templates contain a white list. Unlisted robots (User-agents) are, by the conventions of the Robots Exclusion Standard, not allowed to access.
 
 ## Files
 
