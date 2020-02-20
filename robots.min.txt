@@ -13,7 +13,6 @@ User-agent: adidxbot
 User-agent: Applebot
 User-agent: AppleNewsBot
 User-agent: Baiduspider
-User-agent: Baiduspider-ads
 User-agent: Baiduspider-image
 User-agent: Baiduspider-news
 User-agent: Baiduspider-video

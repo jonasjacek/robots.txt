@@ -9,7 +9,7 @@
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
-# Last update: 2019-03-07                                                      #
+# Last update: 2020-02-20                                                      #
 #                                                                              #
 ################################################################################
 # so.com chinese search engine
@@ -28,7 +28,6 @@ User-agent: Applebot
 user-agent: AppleNewsBot
 # baidu.com chinese search engine
 User-agent: Baiduspider
-User-agent: Baiduspider-ads
 User-agent: Baiduspider-image
 User-agent: Baiduspider-news
 User-agent: Baiduspider-video
