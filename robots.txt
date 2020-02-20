@@ -28,7 +28,10 @@ User-agent: Applebot
 user-agent: AppleNewsBot
 # baidu.com chinese search engine
 User-agent: Baiduspider
+User-agent: Baiduspider-ads
 User-agent: Baiduspider-image
+User-agent: Baiduspider-news
+User-agent: Baiduspider-video
 # bing.com international search engine
 User-agent: bingbot
 User-agent: BingPreview
