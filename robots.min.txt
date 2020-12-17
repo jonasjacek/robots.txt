@@ -1,7 +1,7 @@
 ################################# ROBOTS.TXT ###################################
 # Updates can be retrieved from: https://github.com/jonasjacek/robots.txt      #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
-# Last update: 2020-02-20                                                      #
+# Last update: 2020-12-17                                                      #
 ################################################################################
 User-agent: 360Spider
 User-agent: 360Spider-Image
