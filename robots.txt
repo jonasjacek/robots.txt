@@ -5,7 +5,8 @@
 # comment above the (list of) user-agent(s). Comment out or delete lines which #
 # contain User-agents you do not wish to allow on your website.                #
 # Important: Blank lines are not allowed in the final robots.txt file!         #
-# Updates can be retrieved from: https://github.com/jonasjacek/robots.txt      #
+# Updates can be retrieved from:                                               #
+# https://www.ditig.com/publications/robots-txt-template                       #
 #                                                                              #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 #                                                                              #
