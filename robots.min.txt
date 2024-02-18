@@ -1,5 +1,6 @@
 ################################# ROBOTS.TXT ###################################
-# Updates can be retrieved from: https://github.com/jonasjacek/robots.txt      #
+# Updates can be retrieved from:                                               #
+# https://www.ditig.com/publications/robots-txt-template                       #
 # This document is licensed with a CC BY-NC-SA 4.0 license.                    #
 # Last update: 2020-12-17                                                      #
 ################################################################################
