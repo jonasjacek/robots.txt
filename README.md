@@ -1,6 +1,6 @@
 # Robots.txt File Template
 
-**The [Robots.txt template](https://www.ditig.com/publications/robots-txt-template) by [Jonas Jacek](https://www.j15k.com/), has been moved to [ditig.com](https://www.ditig.com/publications/robots-txt-template).**
+**The [Robots.txt template](https://www.ditig.com/robots-txt-template) by [Jonas Jacek](https://www.j15k.com/), has been moved to [ditig.com](https://www.ditig.com/robots-txt-template).**
 
 This repository will be closed shortly.
 
